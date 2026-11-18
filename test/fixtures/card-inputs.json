@@ -1,0 +1,2997 @@
+[
+  {
+    "name": "endpoint removed",
+    "input": {
+      "item": {
+        "model": "mistralai/mistral-medium-3",
+        "at": "2026-11-17T16:07:00Z",
+        "name": "Mistral: Mistral Medium 3",
+        "since": "2026-11-17T15:52:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/mistralai/mistral-medium-3",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "left",
+            "tag": "mistral/zdr",
+            "provider": "Mistral",
+            "providerStays": true,
+            "remains": {
+              "tag": "mistral/eu",
+              "provider": "Mistral"
+            },
+            "confirmed": true
+          }
+        ],
+        "sharedProviders": [
+          "Mistral"
+        ],
+        "cheapest": null,
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      }
+    }
+  },
+  {
+    "name": "compact card, a price increase, with usage and request share",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T05:07:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:52:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "morph",
+            "provider": "Morph",
+            "prompt": {
+              "from": 0.684,
+              "to": 0.91,
+              "change": 0.3304093567
+            },
+            "completion": {
+              "from": 10.26,
+              "to": 13.65,
+              "change": 0.3304093567
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 4,
+              "input": {
+                "cheapest": false,
+                "vs": 3.791666667,
+                "tags": [
+                  "relace"
+                ],
+                "providers": [
+                  "Relace"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 2.237704918,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "relace"
+            ],
+            "providers": [
+              "Relace"
+            ],
+            "price": 0.24
+          },
+          "output": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "price": 6.1
+          },
+          "combined": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "prompt": 1.22,
+            "completion": 6.1,
+            "price": 7.32
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true,
+      "usage": {
+        "moonshotai/kimi-k3.1-pro": {
+          "tokens": 3200000000000,
+          "rank": 1
+        }
+      },
+      "traffic": [
+        {
+          "provider": "Morph",
+          "tag": "morph",
+          "requests30m": 1200
+        },
+        {
+          "provider": "Relace",
+          "tag": "relace",
+          "requests30m": 30000
+        },
+        {
+          "provider": "Decart",
+          "tag": "decart",
+          "requests30m": 20000
+        },
+        {
+          "provider": "Pricey",
+          "tag": "pricey",
+          "requests30m": 15000
+        }
+      ]
+    }
+  },
+  {
+    "name": "the same change without the OpenRouter key (no usage, no request counts; row 1 padded with a spacer)",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T04:49:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:31:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "morph",
+            "provider": "Morph",
+            "prompt": {
+              "from": 0.684,
+              "to": 0.91,
+              "change": 0.3304093567
+            },
+            "completion": {
+              "from": 10.26,
+              "to": 13.65,
+              "change": 0.3304093567
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 4,
+              "input": {
+                "cheapest": false,
+                "vs": 3.791666667,
+                "tags": [
+                  "relace"
+                ],
+                "providers": [
+                  "Relace"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 2.237704918,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "relace"
+            ],
+            "providers": [
+              "Relace"
+            ],
+            "price": 0.24
+          },
+          "output": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "price": 6.1
+          },
+          "combined": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "prompt": 1.22,
+            "completion": 6.1,
+            "price": 7.32
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact card, a price increase with a price range crossing riding along",
+    "input": {
+      "item": {
+        "model": "google/gemma-3-12b-it",
+        "at": "2026-11-17T08:52:00Z",
+        "name": "Google: Gemma 3 12B",
+        "since": "2026-11-17T08:37:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/google/gemma-3-12b-it",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "nextbit/int4",
+            "provider": "NextBit",
+            "prompt": {
+              "from": 0.075,
+              "to": 0.15,
+              "change": 1
+            },
+            "completion": {
+              "from": 0.15,
+              "to": 0.25,
+              "change": 0.6666666667
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 4,
+              "input": {
+                "cheapest": false,
+                "vs": 3.75,
+                "tags": [
+                  "deepinfra/bf16/flex"
+                ],
+                "providers": [
+                  "DeepInfra"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 2.083333333,
+                "tags": [
+                  "deepinfra/bf16/flex"
+                ],
+                "providers": [
+                  "DeepInfra"
+                ]
+              }
+            }
+          },
+          {
+            "type": "spread-crossed",
+            "input": {
+              "from": 1.875,
+              "to": 3.75,
+              "low": 0.04,
+              "high": 0.15,
+              "up": true,
+              "cause": "priciest-rose"
+            },
+            "output": null
+          }
+        ],
+        "sharedProviders": [
+          "DeepInfra"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "deepinfra/bf16/flex"
+            ],
+            "providers": [
+              "DeepInfra"
+            ],
+            "price": 0.04
+          },
+          "output": {
+            "tags": [
+              "deepinfra/bf16/flex"
+            ],
+            "providers": [
+              "DeepInfra"
+            ],
+            "price": 0.12
+          },
+          "combined": {
+            "tags": [
+              "deepinfra/bf16/flex"
+            ],
+            "providers": [
+              "DeepInfra"
+            ],
+            "prompt": 0.04,
+            "completion": 0.12,
+            "price": 0.16
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact layout of a price cut that makes a new cheapest input (a cut alone earns no card; shown for the \"was\" line)",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T04:49:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:31:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "morph",
+            "provider": "Morph",
+            "prompt": {
+              "from": 0.684,
+              "to": 0.2,
+              "change": -0.7076023392
+            },
+            "completion": null,
+            "direction": "down",
+            "standing": {
+              "poolSize": 4,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "relace"
+                ],
+                "providers": [
+                  "Relace"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 1.681967213,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "relace"
+              ],
+              "to": [
+                "morph"
+              ],
+              "fromProviders": [
+                "Relace"
+              ],
+              "toProviders": [
+                "Morph"
+              ],
+              "toPrice": 0.2,
+              "fromNow": 0.24,
+              "fromLeft": false
+            },
+            "output": null
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "morph"
+            ],
+            "providers": [
+              "Morph"
+            ],
+            "price": 0.2
+          },
+          "output": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "price": 6.1
+          },
+          "combined": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "prompt": 1.22,
+            "completion": 6.1,
+            "price": 7.32
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact card, one provider joined (model type not known)",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro:batch",
+        "at": "2026-11-16T19:06:42Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+        "since": "2026-11-16T06:56:26Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro:batch",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "morph/fp8",
+            "provider": "Morph",
+            "prompt": 0.36,
+            "completion": 5.391,
+            "expensive": false,
+            "standing": {
+              "poolSize": 2,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "sail-research/fp4"
+                ],
+                "providers": [
+                  "Sail Research"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "sail-research/fp4"
+                ],
+                "providers": [
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "sail-research/fp4"
+              ],
+              "to": [
+                "morph/fp8"
+              ],
+              "fromProviders": [
+                "Sail Research"
+              ],
+              "toProviders": [
+                "Morph"
+              ],
+              "toPrice": 0.36,
+              "fromNow": 0.7,
+              "fromLeft": false
+            },
+            "output": {
+              "from": [
+                "sail-research/fp4"
+              ],
+              "to": [
+                "morph/fp8"
+              ],
+              "fromProviders": [
+                "Sail Research"
+              ],
+              "toProviders": [
+                "Morph"
+              ],
+              "toPrice": 5.391,
+              "fromNow": 6,
+              "fromLeft": false
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "morph/fp8"
+            ],
+            "providers": [
+              "Morph"
+            ],
+            "price": 0.36
+          },
+          "output": {
+            "tags": [
+              "morph/fp8"
+            ],
+            "providers": [
+              "Morph"
+            ],
+            "price": 5.391
+          },
+          "combined": {
+            "tags": [
+              "morph/fp8"
+            ],
+            "providers": [
+              "Morph"
+            ],
+            "prompt": 0.36,
+            "completion": 5.391,
+            "price": 5.751
+          }
+        },
+        "modelType": null,
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact card, one provider left (window over 20 minutes)",
+    "input": {
+      "item": {
+        "model": "google/gemma-4-31b-it",
+        "at": "2026-11-16T19:06:42Z",
+        "name": "Google: Gemma 4 31B",
+        "since": "2026-11-16T06:56:26Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "left",
+            "tag": "dekallm",
+            "provider": "DekaLLM",
+            "confirmed": true
+          }
+        ],
+        "sharedProviders": [
+          "DeepInfra"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "coreweave/fp4",
+              "kt"
+            ],
+            "providers": [
+              "CoreWeave",
+              "KT"
+            ],
+            "price": 0.1
+          },
+          "output": {
+            "tags": [
+              "modal"
+            ],
+            "providers": [
+              "Modal"
+            ],
+            "price": 0.1
+          },
+          "combined": {
+            "tags": [
+              "coreweave/fp4",
+              "kt",
+              "modal"
+            ],
+            "providers": [
+              "CoreWeave",
+              "KT",
+              "Modal"
+            ],
+            "prompt": 0.1,
+            "completion": 0.34,
+            "price": 0.44
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact card, a price increase that made a five-way tie",
+    "input": {
+      "item": {
+        "model": "tencent/hy4-preview",
+        "at": "2026-11-17T00:06:18Z",
+        "name": "Tencent: Hy4 preview",
+        "since": "2026-11-17T00:03:31Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/tencent/hy4-preview",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "tencent/fp8",
+            "provider": "Tencent",
+            "prompt": {
+              "from": 0.7506,
+              "to": 0.834,
+              "change": 0.1111111111
+            },
+            "completion": {
+              "from": 2.2509,
+              "to": 2.501,
+              "change": 0.1111111111
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 6,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "deepinfra/fp4",
+                  "gmicloud/bf16",
+                  "novita/fp8",
+                  "siliconflow/fp8"
+                ],
+                "providers": [
+                  "DeepInfra",
+                  "GMICloud",
+                  "Novita",
+                  "SiliconFlow"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "deepinfra/fp4",
+                  "gmicloud/bf16",
+                  "novita/fp8",
+                  "siliconflow/fp8"
+                ],
+                "providers": [
+                  "DeepInfra",
+                  "GMICloud",
+                  "Novita",
+                  "SiliconFlow"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "tencent/fp8"
+              ],
+              "to": [
+                "deepinfra/fp4",
+                "gmicloud/bf16",
+                "novita/fp8",
+                "siliconflow/fp8",
+                "tencent/fp8"
+              ],
+              "fromProviders": [
+                "Tencent"
+              ],
+              "toProviders": [
+                "DeepInfra",
+                "GMICloud",
+                "Novita",
+                "SiliconFlow",
+                "Tencent"
+              ],
+              "toPrice": 0.834,
+              "fromNow": 0.834,
+              "fromLeft": false
+            },
+            "output": {
+              "from": [
+                "tencent/fp8"
+              ],
+              "to": [
+                "deepinfra/fp4",
+                "gmicloud/bf16",
+                "novita/fp8",
+                "siliconflow/fp8",
+                "tencent/fp8"
+              ],
+              "fromProviders": [
+                "Tencent"
+              ],
+              "toProviders": [
+                "DeepInfra",
+                "GMICloud",
+                "Novita",
+                "SiliconFlow",
+                "Tencent"
+              ],
+              "toPrice": 2.501,
+              "fromNow": 2.501,
+              "fromLeft": false
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "deepinfra/fp4",
+              "gmicloud/bf16",
+              "novita/fp8",
+              "siliconflow/fp8",
+              "tencent/fp8"
+            ],
+            "providers": [
+              "DeepInfra",
+              "GMICloud",
+              "Novita",
+              "SiliconFlow",
+              "Tencent"
+            ],
+            "price": 0.834
+          },
+          "output": {
+            "tags": [
+              "deepinfra/fp4",
+              "gmicloud/bf16",
+              "novita/fp8",
+              "siliconflow/fp8",
+              "tencent/fp8"
+            ],
+            "providers": [
+              "DeepInfra",
+              "GMICloud",
+              "Novita",
+              "SiliconFlow",
+              "Tencent"
+            ],
+            "price": 2.501
+          },
+          "combined": {
+            "tags": [
+              "deepinfra/fp4",
+              "gmicloud/bf16",
+              "novita/fp8",
+              "siliconflow/fp8",
+              "tencent/fp8"
+            ],
+            "providers": [
+              "DeepInfra",
+              "GMICloud",
+              "Novita",
+              "SiliconFlow",
+              "Tencent"
+            ],
+            "prompt": 0.834,
+            "completion": 2.501,
+            "price": 3.335
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact card, a price increase that broke a tie",
+    "input": {
+      "item": {
+        "model": "minimax/minimax-m3.1-flash",
+        "at": "2026-11-17T01:06:59Z",
+        "name": "MiniMax: MiniMax M3.1 Flash",
+        "since": "2026-11-17T00:03:31Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/minimax/minimax-m3.1-flash",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "minimax",
+            "provider": "Minimax",
+            "prompt": {
+              "from": 0.075,
+              "to": 0.15,
+              "change": 1
+            },
+            "completion": {
+              "from": 0.3,
+              "to": 0.6,
+              "change": 1
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 15,
+              "input": {
+                "cheapest": false,
+                "vs": 2,
+                "tags": [
+                  "inferact-vllm/nvfp4"
+                ],
+                "providers": [
+                  "Inferact vLLM"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 2,
+                "tags": [
+                  "inferact-vllm/nvfp4"
+                ],
+                "providers": [
+                  "Inferact vLLM"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "inferact-vllm/nvfp4",
+                "minimax"
+              ],
+              "to": [
+                "inferact-vllm/nvfp4"
+              ],
+              "fromProviders": [
+                "Inferact vLLM",
+                "Minimax"
+              ],
+              "toProviders": [
+                "Inferact vLLM"
+              ],
+              "toPrice": 0.075,
+              "fromNow": 0.075,
+              "fromLeft": false,
+              "fromPrices": [
+                0.075,
+                0.15
+              ]
+            },
+            "output": {
+              "from": [
+                "inferact-vllm/nvfp4",
+                "minimax"
+              ],
+              "to": [
+                "inferact-vllm/nvfp4"
+              ],
+              "fromProviders": [
+                "Inferact vLLM",
+                "Minimax"
+              ],
+              "toProviders": [
+                "Inferact vLLM"
+              ],
+              "toPrice": 0.3,
+              "fromNow": 0.3,
+              "fromLeft": false,
+              "fromPrices": [
+                0.3,
+                0.6
+              ]
+            }
+          }
+        ],
+        "sharedProviders": [
+          "InferenceNet"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "inferact-vllm/nvfp4"
+            ],
+            "providers": [
+              "Inferact vLLM"
+            ],
+            "price": 0.075
+          },
+          "output": {
+            "tags": [
+              "inferact-vllm/nvfp4"
+            ],
+            "providers": [
+              "Inferact vLLM"
+            ],
+            "price": 0.3
+          },
+          "combined": {
+            "tags": [
+              "inferact-vllm/nvfp4"
+            ],
+            "providers": [
+              "Inferact vLLM"
+            ],
+            "prompt": 0.075,
+            "completion": 0.3,
+            "price": 0.375
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "compact card, a dynamic provider becomes the cheapest output",
+    "input": {
+      "item": {
+        "model": "google/gemma-4-26b-a4b-it",
+        "at": "2026-11-16T22:51:45Z",
+        "name": "Google: Gemma 4 26B A4B",
+        "since": "2026-11-16T22:45:18Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/google/gemma-4-26b-a4b-it",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "primeintellect/bf16",
+            "provider": "PrimeIntellect",
+            "prompt": {
+              "from": 0.051,
+              "to": 0.047,
+              "change": -0.07843137255
+            },
+            "completion": {
+              "from": 0.154,
+              "to": 0.142,
+              "change": -0.07792207792
+            },
+            "direction": "down",
+            "standing": {
+              "poolSize": 15,
+              "input": {
+                "cheapest": false,
+                "vs": 1.175,
+                "tags": [
+                  "darkbloom"
+                ],
+                "providers": [
+                  "Darkbloom"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "darkbloom"
+                ],
+                "providers": [
+                  "Darkbloom"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": null,
+            "output": {
+              "from": [
+                "darkbloom"
+              ],
+              "to": [
+                "primeintellect/bf16"
+              ],
+              "fromProviders": [
+                "Darkbloom"
+              ],
+              "toProviders": [
+                "PrimeIntellect"
+              ],
+              "toPrice": 0.142,
+              "fromNow": 0.15,
+              "fromLeft": false
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "darkbloom"
+            ],
+            "providers": [
+              "Darkbloom"
+            ],
+            "price": 0.04
+          },
+          "output": {
+            "tags": [
+              "primeintellect/bf16"
+            ],
+            "providers": [
+              "PrimeIntellect"
+            ],
+            "price": 0.142
+          },
+          "combined": {
+            "tags": [
+              "primeintellect/bf16"
+            ],
+            "providers": [
+              "PrimeIntellect"
+            ],
+            "prompt": 0.047,
+            "completion": 0.142,
+            "price": 0.189
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": [
+          {
+            "provider": "PrimeIntellect",
+            "checks": 8,
+            "of": 10,
+            "range": {
+              "input": {
+                "low": 0.038,
+                "high": 0.052
+              },
+              "output": {
+                "low": 0.114,
+                "high": 0.156
+              }
+            }
+          }
+        ]
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a price cut and a mixed move on one model",
+    "input": {
+      "item": {
+        "model": "z-ai/glm-5.3",
+        "at": "2026-11-17T16:22:00Z",
+        "name": "Z.ai: GLM 5.3",
+        "since": "2026-11-17T16:07:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/z-ai/glm-5.3",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "makora/fp4",
+            "provider": "Makora",
+            "prompt": {
+              "from": 1,
+              "to": 1.5,
+              "change": 0.5
+            },
+            "completion": {
+              "from": 3.6,
+              "to": 2,
+              "change": -0.4444444444
+            },
+            "direction": "mixed",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 21.45922747,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 1.428571429,
+                "tags": [
+                  "wafer/fp4",
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer",
+                  "Wafer"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "morph/fp8",
+            "provider": "Morph",
+            "prompt": {
+              "from": 1.092,
+              "to": 1.03,
+              "change": -0.05677655678
+            },
+            "completion": {
+              "from": 5.095,
+              "to": 4.804,
+              "change": -0.05711481845
+            },
+            "direction": "down",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 14.73533619,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 3.431428571,
+                "tags": [
+                  "wafer/fp4",
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer",
+                  "Wafer"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [
+          "Alibaba",
+          "BaseTen",
+          "DeepInfra",
+          "Fireworks",
+          "InferenceNet",
+          "Mistral",
+          "Parasail",
+          "Sail Research",
+          "Wafer"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "wafer/us"
+            ],
+            "providers": [
+              "Wafer"
+            ],
+            "price": 0.0699
+          },
+          "output": {
+            "tags": [
+              "wafer/fp4",
+              "wafer/us"
+            ],
+            "providers": [
+              "Wafer",
+              "Wafer"
+            ],
+            "price": 1.4
+          },
+          "combined": {
+            "tags": [
+              "wafer/us"
+            ],
+            "providers": [
+              "Wafer"
+            ],
+            "prompt": 0.0699,
+            "completion": 1.4,
+            "price": 1.4699
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      }
+    }
+  },
+  {
+    "name": "full card, a join and a price cut, with a \"Changed between\" line",
+    "input": {
+      "item": {
+        "model": "qwen/qwen3.8-27b",
+        "at": "2026-11-16T19:06:42Z",
+        "name": "Qwen: Qwen3.8 27B",
+        "since": "2026-11-16T06:56:26Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/qwen/qwen3.8-27b",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "io-net/fp8",
+            "provider": "Io Net",
+            "prompt": 0.1,
+            "completion": 1.8,
+            "expensive": true,
+            "standing": {
+              "poolSize": 24,
+              "input": {
+                "cheapest": false,
+                "vs": 2.857142857,
+                "tags": [
+                  "darkbloom/fp4"
+                ],
+                "providers": [
+                  "Darkbloom"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 4.285714286,
+                "tags": [
+                  "primeintellect/fp8"
+                ],
+                "providers": [
+                  "PrimeIntellect"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "primeintellect/fp8",
+            "provider": "PrimeIntellect",
+            "prompt": {
+              "from": 0.073,
+              "to": 0.059,
+              "change": -0.1917808219
+            },
+            "completion": {
+              "from": 0.522,
+              "to": 0.42,
+              "change": -0.1954022989
+            },
+            "direction": "down",
+            "standing": {
+              "poolSize": 24,
+              "input": {
+                "cheapest": false,
+                "vs": 1.685714286,
+                "tags": [
+                  "darkbloom/fp4"
+                ],
+                "providers": [
+                  "Darkbloom"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "streamlake"
+                ],
+                "providers": [
+                  "StreamLake"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "darkbloom/fp4"
+            ],
+            "providers": [
+              "Darkbloom"
+            ],
+            "price": 0.035
+          },
+          "output": {
+            "tags": [
+              "primeintellect/fp8"
+            ],
+            "providers": [
+              "PrimeIntellect"
+            ],
+            "price": 0.42
+          },
+          "combined": {
+            "tags": [
+              "primeintellect/fp8"
+            ],
+            "providers": [
+              "PrimeIntellect"
+            ],
+            "prompt": 0.059,
+            "completion": 0.42,
+            "price": 0.479
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, four kinds of change dated by archived OpenRouter pages (no timestamp)",
+    "input": {
+      "item": {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "at": "2026-11-10T17:15:01Z",
+        "name": "Xiaomi: MiMo-V2.6-Pro",
+        "since": "2026-10-27T16:45:15Z",
+        "sources": [
+          "archived-model-page",
+          "archived-model-page"
+        ],
+        "openrouterUrl": "https://openrouter.ai/xiaomi/mimo-v2.6-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "primalabs/fp8",
+            "provider": "PrimaLabs",
+            "prompt": 4,
+            "completion": 8,
+            "expensive": true,
+            "standing": {
+              "poolSize": 5,
+              "input": {
+                "cheapest": false,
+                "vs": 12.25865768,
+                "tags": [
+                  "gmicloud/bf16"
+                ],
+                "providers": [
+                  "GMICloud"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 12.2605364,
+                "tags": [
+                  "gmicloud/bf16"
+                ],
+                "providers": [
+                  "GMICloud"
+                ]
+              }
+            }
+          },
+          {
+            "type": "left",
+            "tag": "novitaai",
+            "provider": "NovitaAI",
+            "confirmed": true
+          },
+          {
+            "type": "spread-crossed",
+            "input": {
+              "from": 1.411573824,
+              "to": 12.25865768,
+              "low": 0.3263,
+              "high": 4,
+              "up": true,
+              "cause": "priciest-rose"
+            },
+            "output": {
+              "from": 1.411764706,
+              "to": 12.2605364,
+              "low": 0.6525,
+              "high": 8,
+              "up": true,
+              "cause": "priciest-rose"
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "gmicloud/bf16",
+            "provider": "GMICloud",
+            "prompt": {
+              "from": 0.3698,
+              "to": 0.3263,
+              "change": -0.117631152
+            },
+            "completion": {
+              "from": 0.7395,
+              "to": 0.6525,
+              "change": -0.1176470588
+            },
+            "direction": "down",
+            "discountFrom": 0.15,
+            "discountTo": 0.25,
+            "standing": {
+              "poolSize": 5,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "deepinfra/fp8"
+                ],
+                "providers": [
+                  "DeepInfra"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "deepinfra/fp8"
+                ],
+                "providers": [
+                  "DeepInfra"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "gmicloud/bf16"
+            ],
+            "providers": [
+              "GMICloud"
+            ],
+            "price": 0.3263
+          },
+          "output": {
+            "tags": [
+              "gmicloud/bf16"
+            ],
+            "providers": [
+              "GMICloud"
+            ],
+            "price": 0.6525
+          },
+          "combined": {
+            "tags": [
+              "gmicloud/bf16"
+            ],
+            "providers": [
+              "GMICloud"
+            ],
+            "prompt": 0.3263,
+            "completion": 0.6525,
+            "price": 0.9788
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a flex endpoint removed and the cheapest changed",
+    "input": {
+      "item": {
+        "model": "openai/gpt-5.4-pro",
+        "at": "2026-11-16T19:06:42Z",
+        "name": "OpenAI: GPT-5.4 Pro",
+        "since": "2026-11-16T06:56:26Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/openai/gpt-5.4-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "left",
+            "tag": "openai/flex",
+            "provider": "OpenAI",
+            "providerStays": true,
+            "confirmed": true
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "openai/flex"
+              ],
+              "to": [
+                "azure",
+                "openai"
+              ],
+              "fromProviders": [
+                "OpenAI"
+              ],
+              "toProviders": [
+                "Azure",
+                "OpenAI"
+              ],
+              "toPrice": 30,
+              "fromNow": null,
+              "fromLeft": true
+            },
+            "output": {
+              "from": [
+                "openai/flex"
+              ],
+              "to": [
+                "azure",
+                "openai"
+              ],
+              "fromProviders": [
+                "OpenAI"
+              ],
+              "toProviders": [
+                "Azure",
+                "OpenAI"
+              ],
+              "toPrice": 180,
+              "fromNow": null,
+              "fromLeft": true
+            }
+          }
+        ],
+        "sharedProviders": [
+          "OpenAI"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "azure",
+              "openai"
+            ],
+            "providers": [
+              "Azure",
+              "OpenAI"
+            ],
+            "price": 30
+          },
+          "output": {
+            "tags": [
+              "azure",
+              "openai"
+            ],
+            "providers": [
+              "Azure",
+              "OpenAI"
+            ],
+            "price": 180
+          },
+          "combined": {
+            "tags": [
+              "azure",
+              "openai"
+            ],
+            "providers": [
+              "Azure",
+              "OpenAI"
+            ],
+            "prompt": 30,
+            "completion": 180,
+            "price": 210
+          }
+        },
+        "modelType": null,
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a provider removed with one endpoint left",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3:batch",
+        "at": "2026-11-16T22:48:54Z",
+        "name": "MoonshotAI: Kimi K3 (batch)",
+        "since": "2026-11-16T22:45:18Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3:batch",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "left",
+            "tag": "morph/fp8",
+            "provider": "Morph",
+            "remains": {
+              "tag": "deepinfra/bf16",
+              "provider": "DeepInfra"
+            },
+            "confirmed": true
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": null,
+        "modelType": null,
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, two price increases, with request share and usage",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T04:49:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:31:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "morph",
+            "provider": "Morph",
+            "prompt": {
+              "from": 0.684,
+              "to": 0.91,
+              "change": 0.3304093567
+            },
+            "completion": {
+              "from": 10.26,
+              "to": 13.65,
+              "change": 0.3304093567
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 4,
+              "input": {
+                "cheapest": false,
+                "vs": 3.033333333,
+                "tags": [
+                  "relace"
+                ],
+                "providers": [
+                  "Relace"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 2.237704918,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "relace",
+            "provider": "Relace",
+            "prompt": {
+              "from": 0.24,
+              "to": 0.3,
+              "change": 0.25
+            },
+            "completion": null,
+            "direction": "up",
+            "standing": {
+              "poolSize": 4,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "morph"
+                ],
+                "providers": [
+                  "Morph"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 1.475409836,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "relace"
+            ],
+            "providers": [
+              "Relace"
+            ],
+            "price": 0.3
+          },
+          "output": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "price": 6.1
+          },
+          "combined": {
+            "tags": [
+              "decart"
+            ],
+            "providers": [
+              "Decart"
+            ],
+            "prompt": 1.22,
+            "completion": 6.1,
+            "price": 7.32
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true,
+      "usage": {
+        "moonshotai/kimi-k3.1-pro": {
+          "tokens": 3200000000000,
+          "rank": 12
+        }
+      },
+      "traffic": [
+        {
+          "provider": "Morph",
+          "tag": "morph",
+          "requests30m": 1200
+        },
+        {
+          "provider": "P0",
+          "tag": "p0",
+          "requests30m": 30000
+        },
+        {
+          "provider": "P1",
+          "tag": "p1",
+          "requests30m": 20000
+        },
+        {
+          "provider": "P2",
+          "tag": "p2",
+          "requests30m": 15000
+        },
+        {
+          "provider": "P3",
+          "tag": "p3",
+          "requests30m": 10000
+        },
+        {
+          "provider": "P4",
+          "tag": "p4",
+          "requests30m": 9000
+        },
+        {
+          "provider": "P5",
+          "tag": "p5",
+          "requests30m": 8000
+        },
+        {
+          "provider": "P6",
+          "tag": "p6",
+          "requests30m": 7000
+        },
+        {
+          "provider": "P7",
+          "tag": "p7",
+          "requests30m": 5000
+        },
+        {
+          "provider": "P8",
+          "tag": "p8",
+          "requests30m": 3000
+        },
+        {
+          "provider": "P9",
+          "tag": "p9",
+          "requests30m": 2000
+        },
+        {
+          "provider": "P10",
+          "tag": "p10",
+          "requests30m": 1500
+        },
+        {
+          "provider": "P11",
+          "tag": "p11",
+          "requests30m": 1300
+        },
+        {
+          "provider": "P12",
+          "tag": "p12",
+          "requests30m": 1000
+        },
+        {
+          "provider": "P13",
+          "tag": "p13",
+          "requests30m": 500
+        },
+        {
+          "provider": "P14",
+          "tag": "p14",
+          "requests30m": 300
+        },
+        {
+          "provider": "P15",
+          "tag": "p15",
+          "requests30m": 200
+        },
+        {
+          "provider": "P16",
+          "tag": "p16",
+          "requests30m": 26
+        }
+      ]
+    }
+  },
+  {
+    "name": "full card, five kinds of change (\"+1 more change\")",
+    "input": {
+      "item": {
+        "model": "deepseek/deepseek-v4.1-flash-1017",
+        "at": "2026-11-16T21:54:22Z",
+        "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+        "since": "2026-11-16T19:06:42Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "ambient/fp4",
+            "provider": "Ambient",
+            "prompt": 0.098,
+            "completion": 0.294,
+            "expensive": false,
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 2.722222222,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 2.94,
+                "tags": [
+                  "sail-research/fp4",
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research",
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "particle-ai/us/flex",
+            "provider": "Particle AI",
+            "prompt": {
+              "from": 0.03,
+              "to": 0.04,
+              "change": 0.3333333333
+            },
+            "completion": {
+              "from": 0.25,
+              "to": 0.3,
+              "change": 0.2
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 1.111111111,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 3,
+                "tags": [
+                  "sail-research/fp4",
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research",
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "particle-ai/us",
+            "provider": "Particle AI",
+            "prompt": {
+              "from": 0.06,
+              "to": 0.08,
+              "change": 0.3333333333
+            },
+            "completion": {
+              "from": 0.5,
+              "to": 0.6,
+              "change": 0.2
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 2.222222222,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 6,
+                "tags": [
+                  "sail-research/fp4",
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research",
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "open-inference/fp4",
+            "provider": "OpenInference",
+            "prompt": {
+              "from": 0.07,
+              "to": 0.1,
+              "change": 0.4285714286
+            },
+            "completion": null,
+            "direction": "up",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 2.777777778,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 12,
+                "tags": [
+                  "sail-research/fp4",
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research",
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "morph/fp8",
+            "provider": "Morph",
+            "prompt": {
+              "from": 0.07,
+              "to": 0.074,
+              "change": 0.05714285714
+            },
+            "completion": {
+              "from": 0.622,
+              "to": 0.661,
+              "change": 0.06270096463
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 2.055555556,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 6.61,
+                "tags": [
+                  "sail-research/fp4",
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research",
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "makora/fp8",
+            "provider": "Makora",
+            "prompt": {
+              "from": 0.15,
+              "to": 0.12,
+              "change": -0.2
+            },
+            "completion": {
+              "from": 1.2,
+              "to": 0.4,
+              "change": -0.6666666667
+            },
+            "direction": "down",
+            "standing": {
+              "poolSize": 49,
+              "input": {
+                "cheapest": false,
+                "vs": 3.333333333,
+                "tags": [
+                  "wafer/us"
+                ],
+                "providers": [
+                  "Wafer"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 4,
+                "tags": [
+                  "sail-research/fp4",
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research",
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "particle-ai/us/flex"
+              ],
+              "to": [
+                "wafer/us"
+              ],
+              "fromProviders": [
+                "Particle AI"
+              ],
+              "toProviders": [
+                "Wafer"
+              ],
+              "toPrice": 0.036,
+              "fromNow": 0.04,
+              "fromLeft": false
+            },
+            "output": null
+          }
+        ],
+        "sharedProviders": [
+          "BaseTen",
+          "DeepInfra",
+          "Fireworks",
+          "InferenceNet",
+          "Ionstream",
+          "Morph",
+          "Particle AI",
+          "Sail Research",
+          "Wafer"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "wafer/us"
+            ],
+            "providers": [
+              "Wafer"
+            ],
+            "price": 0.036
+          },
+          "output": {
+            "tags": [
+              "sail-research/fp4",
+              "sail-research/fp4/us"
+            ],
+            "providers": [
+              "Sail Research",
+              "Sail Research"
+            ],
+            "price": 0.1
+          },
+          "combined": {
+            "tags": [
+              "sail-research/fp4"
+            ],
+            "providers": [
+              "Sail Research"
+            ],
+            "prompt": 0.05,
+            "completion": 0.1,
+            "price": 0.15
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a join on a flex-tier endpoint",
+    "input": {
+      "item": {
+        "model": "particle-ai/particle-1",
+        "at": "2026-11-16T21:54:22Z",
+        "name": "Particle AI: Particle-1",
+        "since": "2026-11-16T19:06:42Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "watcherOff": false,
+        "openrouterUrl": "https://openrouter.ai/particle-ai/particle-1",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "particle-ai/us/flex",
+            "provider": "Particle AI",
+            "prompt": 0.03,
+            "completion": 0.25,
+            "expensive": false,
+            "standing": {
+              "poolSize": 2,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "particle-ai/us"
+                ],
+                "providers": [
+                  "Particle AI"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "particle-ai/us"
+                ],
+                "providers": [
+                  "Particle AI"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "particle-ai/us"
+              ],
+              "to": [
+                "particle-ai/us/flex"
+              ],
+              "fromProviders": [
+                "Particle AI"
+              ],
+              "toProviders": [
+                "Particle AI"
+              ],
+              "toPrice": 0.03,
+              "fromNow": 0.06,
+              "fromLeft": false
+            },
+            "output": {
+              "from": [
+                "particle-ai/us"
+              ],
+              "to": [
+                "particle-ai/us/flex"
+              ],
+              "fromProviders": [
+                "Particle AI"
+              ],
+              "toProviders": [
+                "Particle AI"
+              ],
+              "toPrice": 0.25,
+              "fromNow": 0.5,
+              "fromLeft": false
+            }
+          }
+        ],
+        "sharedProviders": [
+          "Particle AI"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "particle-ai/us/flex"
+            ],
+            "providers": [
+              "Particle AI"
+            ],
+            "price": 0.03
+          },
+          "output": {
+            "tags": [
+              "particle-ai/us/flex"
+            ],
+            "providers": [
+              "Particle AI"
+            ],
+            "price": 0.25
+          },
+          "combined": {
+            "tags": [
+              "particle-ai/us/flex"
+            ],
+            "providers": [
+              "Particle AI"
+            ],
+            "prompt": 0.03,
+            "completion": 0.25,
+            "price": 0.28
+          }
+        },
+        "modelType": null,
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a price increase on a service-tier endpoint",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T04:49:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:31:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "openai/flex",
+            "provider": "OpenAI",
+            "prompt": {
+              "from": 1,
+              "to": 1.25,
+              "change": 0.25
+            },
+            "completion": {
+              "from": 4,
+              "to": 5,
+              "change": 0.25
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 2,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "openai"
+                ],
+                "providers": [
+                  "OpenAI"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "openai"
+                ],
+                "providers": [
+                  "OpenAI"
+                ]
+              }
+            }
+          }
+        ],
+        "sharedProviders": [
+          "OpenAI"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "openai/flex"
+            ],
+            "providers": [
+              "OpenAI"
+            ],
+            "price": 1.25
+          },
+          "output": {
+            "tags": [
+              "openai/flex"
+            ],
+            "providers": [
+              "OpenAI"
+            ],
+            "price": 5
+          },
+          "combined": {
+            "tags": [
+              "openai/flex"
+            ],
+            "providers": [
+              "OpenAI"
+            ],
+            "prompt": 1.25,
+            "completion": 5,
+            "price": 6.25
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, an endpoint change riding along on a price increase",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T04:49:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:31:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "sail-research/fp4/us",
+            "provider": "Sail Research",
+            "prompt": 0.04,
+            "completion": 0.07,
+            "expensive": false,
+            "standing": {
+              "poolSize": 3,
+              "input": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "relace"
+                ],
+                "providers": [
+                  "Relace"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            },
+            "replaces": "sail-research/fp4"
+          },
+          {
+            "type": "price-changed",
+            "tag": "relace",
+            "provider": "Relace",
+            "prompt": {
+              "from": 0.24,
+              "to": 0.3,
+              "change": 0.25
+            },
+            "completion": null,
+            "direction": "up",
+            "standing": {
+              "poolSize": 3,
+              "input": {
+                "cheapest": false,
+                "vs": 7.5,
+                "tags": [
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 128.5714286,
+                "tags": [
+                  "sail-research/fp4/us"
+                ],
+                "providers": [
+                  "Sail Research"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "sail-research/fp4"
+              ],
+              "to": [
+                "sail-research/fp4/us"
+              ],
+              "fromProviders": [
+                "Sail Research"
+              ],
+              "toProviders": [
+                "Sail Research"
+              ],
+              "toPrice": 0.04,
+              "fromNow": null,
+              "fromLeft": true
+            },
+            "output": {
+              "from": [
+                "sail-research/fp4"
+              ],
+              "to": [
+                "sail-research/fp4/us"
+              ],
+              "fromProviders": [
+                "Sail Research"
+              ],
+              "toProviders": [
+                "Sail Research"
+              ],
+              "toPrice": 0.07,
+              "fromNow": null,
+              "fromLeft": true
+            }
+          }
+        ],
+        "sharedProviders": [
+          "Sail Research"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "sail-research/fp4/us"
+            ],
+            "providers": [
+              "Sail Research"
+            ],
+            "price": 0.04
+          },
+          "output": {
+            "tags": [
+              "sail-research/fp4/us"
+            ],
+            "providers": [
+              "Sail Research"
+            ],
+            "price": 0.07
+          },
+          "combined": {
+            "tags": [
+              "sail-research/fp4/us"
+            ],
+            "providers": [
+              "Sail Research"
+            ],
+            "prompt": 0.04,
+            "completion": 0.07,
+            "price": 0.11
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a quantization change riding along on a price increase",
+    "input": {
+      "item": {
+        "model": "moonshotai/kimi-k3.1-pro",
+        "at": "2026-11-17T04:49:00Z",
+        "name": "MoonshotAI: Kimi K3.1 Pro",
+        "since": "2026-11-17T04:31:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/moonshotai/kimi-k3.1-pro",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "price-changed",
+            "tag": "deepinfra/fp8",
+            "provider": "DeepInfra",
+            "prompt": {
+              "from": 0.5,
+              "to": 0.6,
+              "change": 0.2
+            },
+            "completion": {
+              "from": 2,
+              "to": 2.4,
+              "change": 0.2
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 3,
+              "input": {
+                "cheapest": false,
+                "vs": 2.5,
+                "tags": [
+                  "relace"
+                ],
+                "providers": [
+                  "Relace"
+                ]
+              },
+              "output": {
+                "cheapest": true,
+                "vs": null,
+                "tags": [
+                  "decart"
+                ],
+                "providers": [
+                  "Decart"
+                ]
+              }
+            }
+          },
+          {
+            "type": "quantization-changed",
+            "tag": "deepinfra/fp8",
+            "provider": "DeepInfra",
+            "from": "fp8",
+            "to": "fp4"
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "relace"
+            ],
+            "providers": [
+              "Relace"
+            ],
+            "price": 0.24
+          },
+          "output": {
+            "tags": [
+              "deepinfra/fp8"
+            ],
+            "providers": [
+              "DeepInfra"
+            ],
+            "price": 2.4
+          },
+          "combined": {
+            "tags": [
+              "deepinfra/fp8"
+            ],
+            "providers": [
+              "DeepInfra"
+            ],
+            "prompt": 0.6,
+            "completion": 2.4,
+            "price": 3
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, model delisted",
+    "input": {
+      "item": {
+        "model": "a/b",
+        "at": "2026-11-16T19:06:42Z",
+        "name": "A: B",
+        "since": "2026-11-16T18:52:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/a/b",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "model-delisted"
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": null,
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, no providers left",
+    "input": {
+      "item": {
+        "model": "a/b",
+        "at": "2026-11-16T19:06:42Z",
+        "name": "A: B",
+        "since": "2026-11-16T18:52:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/a/b",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "pool-empty"
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": null,
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card, a video model gained a provider",
+    "input": {
+      "item": {
+        "model": "bytedance/seedance-2.5-flash",
+        "at": "2026-11-17T10:22:00Z",
+        "name": "ByteDance: Seedance 2.5 Flash",
+        "since": "2026-11-17T10:07:00Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/bytedance/seedance-2.5-flash",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "fal",
+            "provider": "Fal",
+            "prompt": null,
+            "completion": null,
+            "expensive": false,
+            "priceNotPerToken": true
+          }
+        ],
+        "sharedProviders": [],
+        "cheapest": null,
+        "modelType": "📺 Video model",
+        "perToken": false,
+        "dynamic": []
+      },
+      "routeButton": true
+    }
+  },
+  {
+    "name": "full card naming a dynamic provider",
+    "input": {
+      "item": {
+        "model": "google/gemma-4-31b-it",
+        "at": "2026-11-17T01:17:10Z",
+        "name": "Google: Gemma 4 31B",
+        "since": "2026-11-17T01:06:59Z",
+        "sources": [
+          "openrouter-api",
+          "openrouter-api"
+        ],
+        "openrouterUrl": "https://openrouter.ai/google/gemma-4-31b-it",
+        "ownPage": null,
+        "events": [
+          {
+            "type": "joined",
+            "tag": "modelrun/fp4",
+            "provider": "ModelRun",
+            "prompt": 0.75,
+            "completion": 1,
+            "expensive": true,
+            "standing": {
+              "poolSize": 18,
+              "input": {
+                "cheapest": false,
+                "vs": 7.5,
+                "tags": [
+                  "coreweave/fp4",
+                  "kt"
+                ],
+                "providers": [
+                  "CoreWeave",
+                  "KT"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 10,
+                "tags": [
+                  "modal"
+                ],
+                "providers": [
+                  "Modal"
+                ]
+              }
+            }
+          },
+          {
+            "type": "price-changed",
+            "tag": "primeintellect/fp8",
+            "provider": "PrimeIntellect",
+            "prompt": {
+              "from": 0.096,
+              "to": 0.109,
+              "change": 0.1354166667
+            },
+            "completion": {
+              "from": 0.161,
+              "to": 0.182,
+              "change": 0.1304347826
+            },
+            "direction": "up",
+            "standing": {
+              "poolSize": 18,
+              "input": {
+                "cheapest": false,
+                "vs": 1.09,
+                "tags": [
+                  "coreweave/fp4",
+                  "kt"
+                ],
+                "providers": [
+                  "CoreWeave",
+                  "KT"
+                ]
+              },
+              "output": {
+                "cheapest": false,
+                "vs": 1.82,
+                "tags": [
+                  "modal"
+                ],
+                "providers": [
+                  "Modal"
+                ]
+              }
+            }
+          },
+          {
+            "type": "cheapest-changed",
+            "input": {
+              "from": [
+                "primeintellect/fp8"
+              ],
+              "to": [
+                "coreweave/fp4",
+                "kt"
+              ],
+              "fromProviders": [
+                "PrimeIntellect"
+              ],
+              "toProviders": [
+                "CoreWeave",
+                "KT"
+              ],
+              "toPrice": 0.1,
+              "fromNow": 0.109,
+              "fromLeft": false
+            },
+            "output": null
+          }
+        ],
+        "sharedProviders": [
+          "DeepInfra"
+        ],
+        "cheapest": {
+          "input": {
+            "tags": [
+              "coreweave/fp4",
+              "kt"
+            ],
+            "providers": [
+              "CoreWeave",
+              "KT"
+            ],
+            "price": 0.1
+          },
+          "output": {
+            "tags": [
+              "modal"
+            ],
+            "providers": [
+              "Modal"
+            ],
+            "price": 0.1
+          },
+          "combined": {
+            "tags": [
+              "primeintellect/fp8"
+            ],
+            "providers": [
+              "PrimeIntellect"
+            ],
+            "prompt": 0.109,
+            "completion": 0.182,
+            "price": 0.291
+          }
+        },
+        "modelType": "📝 Text model",
+        "perToken": true,
+        "dynamic": [
+          {
+            "provider": "PrimeIntellect",
+            "checks": 26,
+            "of": 28,
+            "range": {
+              "input": {
+                "low": 0.073,
+                "high": 0.2
+              },
+              "output": {
+                "low": 0.122,
+                "high": 0.335
+              }
+            }
+          }
+        ]
+      },
+      "routeButton": true
+    }
+  }
+]

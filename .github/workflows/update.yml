@@ -1,0 +1,34 @@
+# Keeps the public site and feed current: every run checks OpenRouter's public API (no key),
+# records the check on branch `data` and publishes the rebuilt site to branch `gh-pages`, which
+# GitHub Pages serves. The work is in scripts/publish.mjs; nothing is pushed unless the check and
+# the build succeed.
+#
+# The schedule is best effort: GitHub starts scheduled runs late, or skips them, when it is busy,
+# so "every 15 minutes" is the aim, not a promise. The minutes match the local watcher's rhythm.
+# GitHub also turns schedules off in a public repository after 60 days without activity.
+name: update
+
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: node scripts/publish.mjs
+        env:
+          SITE_URL: https://tiny-herb.github.io/pool-history

@@ -1,0 +1,20 @@
+{
+  "name": "pool-history",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "snapshot": "node pool-history.mjs snapshot",
+    "build": "node pool-history.mjs build",
+    "diff": "node pool-history.mjs diff",
+    "serve": "node pool-history.mjs serve",
+    "watch": "node --env-file-if-exists=.env pool-history.mjs watch",
+    "post": "node --env-file-if-exists=.env pool-history.mjs post",
+    "seeds": "node scripts/seeds.mjs",
+    "test": "node --test",
+    "check": "node --check pool-history.mjs && node --check src/assets/localtime.js && node --check src/assets/theme.js && node --check src/cli.mjs && node --check src/docs-links.mjs && node --check src/format.mjs && node --check src/frame.mjs && node --check src/gateway.mjs && node --check src/links.mjs && node --check src/model-types.mjs && node --check src/route-form.mjs && node --check src/route-limits.mjs && node --check src/rules.mjs && node --check src/serve.mjs && node --check src/when.mjs && node --check src/endpoints.mjs && node --check src/route-pool.mjs && node --check src/route-probe.mjs && node --check src/snapshot.mjs && node --check src/usage.mjs && node --check src/checks.mjs && node --check src/events.mjs && node --check src/history.mjs && node --check src/render.mjs && node --check src/discord.mjs && node --check src/feed.mjs && node --check src/post.mjs && node --check src/route-answer.mjs && node --check src/build.mjs && node --check src/interactions.mjs && node --check src/watch.mjs && node --check scripts/seeds.mjs"
+  }
+}
