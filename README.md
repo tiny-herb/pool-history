@@ -135,7 +135,6 @@ The button appears on posts for models priced per token, and only the person who
 - Decide what counts as notable before building the feed.
 - Write down the unit of every price before showing one.
 - Host the bot and log Test request use from the start.
-- Set up guardrails to adjust model use in real time.
 
 **What I am least sure of.**
 
