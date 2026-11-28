@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>OpenRouter pool history - Pool changes</title>
+<description>Providers joining and leaving OpenRouter models, and their price changes, checked every 15 minutes in the public endpoints API. Independent; not affiliated with OpenRouter.</description>
+<link>https://tiny-herb.github.io/pool-history/</link>
+<atom:link href="https://tiny-herb.github.io/pool-history/feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Sat, 28 Nov 2026 12:22:16 GMT</lastBuildDate>
+<language>en-us</language>
+<generator>openrouter-pool-history</generator>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -7%, output -7% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.03 to $0.028 per M (-7%) · output $0.0599 to $0.056 (-7%) · listed discount 79% to 80% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.0268 to $0.0266 per M (-1%) · cheapest input; output 8x the cheapest (StreamLake)</li><li>Cheapest output: now StreamLake at $0.056 per M · was Baidu, now $0.0566</li></ul><p>Between the snapshots of Nov 28, 10:37 UTC and Nov 28, 11:34 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-28T11:34:18Z</guid>
+<pubDate>Sat, 28 Nov 2026 11:34:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -9%, output -9% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.238 to $0.218 per M (-9%) · output $0.477 to $0.436 (-9%) · listed discount 86% to 87% · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.23 to $0.219 per M (-4%) · output $0.459 to $0.439 (-4%) · listed discount 87% to 87% · input 1% above the cheapest (Baidu), output 1% above the cheapest (Baidu)</li><li>Cheapest endpoint: now Baidu at $0.218 in / $0.436 out per M · was StreamLake, now $0.219 in / $0.439 out</li></ul><p>Between the snapshots of Nov 28, 10:37 UTC and Nov 28, 11:34 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T11:34:18Z</guid>
+<pubDate>Sat, 28 Nov 2026 11:34:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +11%, output +10% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.045 to $0.05 per M (+11%) · output $0.163 to $0.18 (+10%) · cheapest on input and output</li><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.091 per M (-9%) · output $0.36 to $0.328 (-9%) · input 1.8x the cheapest (Darkbloom, PrimeIntellect), output 1.8x the cheapest (PrimeIntellect)</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 28, 10:37 UTC and Nov 28, 11:34 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-28T11:34:18Z</guid>
+<pubDate>Sat, 28 Nov 2026 11:34:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Morph on GLM 5.3 (batch) (z-ai/glm-5.3:batch) · input less than 1% above the cheapest (Together), output less than 1% above the cheapest (Together)]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) joined at $0.281 / $1.25 per M, input less than 1% above the cheapest (Together), output less than 1% above the cheapest (Together)</li></ul><p>Between the snapshots of Nov 28, 10:37 UTC and Nov 28, 11:34 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3:batch">Z.ai: GLM 5.3 (batch) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3:batch</link>
+<guid isPermaLink="false">z-ai/glm-5.3:batch-2026-11-28T11:34:18Z</guid>
+<pubDate>Sat, 28 Nov 2026 11:34:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -8%, output -8% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0307 to $0.0283 per M (-8%) · output $0.0613 to $0.0566 (-8%) · listed discount 78% to 80% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.0284 to $0.0268 per M (-6%) · cheapest input; output 8x the cheapest (Baidu)</li><li>Cheapest output: now Baidu at $0.0566 per M · was StreamLake, now $0.0599</li></ul><p>Between the snapshots of Nov 28, 09:37 UTC and Nov 28, 10:37 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-28T10:37:20Z</guid>
+<pubDate>Sat, 28 Nov 2026 10:37:20 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -4%, output -4% · +1 more change]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.24 to $0.23 per M (-4%) · output $0.48 to $0.459 (-4%) · listed discount 86% to 87% · cheapest on input and output</li><li>Cheapest endpoint: now StreamLake at $0.23 in / $0.459 out per M · was Baidu, now $0.238 in / $0.477 out</li></ul><p>Between the snapshots of Nov 28, 09:37 UTC and Nov 28, 10:37 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T10:37:20Z</guid>
+<pubDate>Sat, 28 Nov 2026 10:37:20 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -10%, output -9% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.045 per M (-10%) · output $0.18 to $0.163 (-9%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 28, 09:37 UTC and Nov 28, 10:37 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-28T10:37:20Z</guid>
+<pubDate>Sat, 28 Nov 2026 10:37:20 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Io Net on Kimi K3.1 Pro (moonshotai/kimi-k3.1-pro) · input +7%, output +7%]]></title>
+<description><![CDATA[<ul><li>Io Net (io-net/fp4) · input $1.65 to $1.76 per M (+7%) · output $9.00 to $9.60 (+7%) · listed discount 25% to 20% · input 7.3x the cheapest (Relace), output 1.5x the cheapest (Decart)</li></ul><p>Between the snapshots of Nov 28, 09:37 UTC and Nov 28, 10:37 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3.1-pro">MoonshotAI: Kimi K3.1 Pro on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3.1-pro</link>
+<guid isPermaLink="false">moonshotai/kimi-k3.1-pro-2026-11-28T10:37:20Z</guid>
+<pubDate>Sat, 28 Nov 2026 10:37:20 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model listed: GLM 5.2 (batch) (z-ai/glm-5.2:batch) · 1 endpoint]]></title>
+<description><![CDATA[<ul><li>Listed with 1 endpoint</li></ul><p>Between the snapshots of Nov 28, 09:37 UTC and Nov 28, 10:37 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2:batch">Z.ai: GLM 5.2 (batch) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2:batch</link>
+<guid isPermaLink="false">z-ai/glm-5.2:batch-2026-11-28T10:37:20Z</guid>
+<pubDate>Sat, 28 Nov 2026 10:37:20 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Morph on GLM 5.3 Flash (batch) (z-ai/glm-5.3-flash:batch) · input 4% above the cheapest (Together), output 1% above the cheapest (Together)]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) joined at $0.024 / $0.069 per M, input 4% above the cheapest (Together), output 1% above the cheapest (Together)</li></ul><p>Between the snapshots of Nov 28, 09:37 UTC and Nov 28, 10:37 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash:batch">Z.ai: GLM 5.3 Flash (batch) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash:batch</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash:batch-2026-11-28T10:37:20Z</guid>
+<pubDate>Sat, 28 Nov 2026 10:37:20 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input +244%, output +1% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.259 to $0.89 per M (+244%) · output $1.56 to $1.58 (+1%) · input 3.6x, output 3.2x the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.269 to $0.248 per M (-8%) · output $0.537 to $0.497 (-8%) · listed discount 84% to 85% · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.27 to $0.25 per M (-8%) · output $0.54 to $0.50 (-8%) · listed discount 84% to 86% · input 1% above the cheapest (Baidu), output 1% above the cheapest (Baidu)</li><li>Cheapest input: now Baidu at $0.248 per M · was Relace, now $0.89</li></ul><p>Between the snapshots of Nov 28, 07:57 UTC and Nov 28, 08:48 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T08:48:52Z</guid>
+<pubDate>Sat, 28 Nov 2026 08:48:52 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Wafer (wafer/us) on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · output -10%]]></title>
+<description><![CDATA[<ul><li>Wafer (wafer/us) · output $0.30 to $0.27 per M (-10%) · input 1% above the cheapest (Baidu), output 2x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +14%, output +13% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.088 to $0.10 per M (+14%) · output $0.318 to $0.36 (+13%) · input 2x the cheapest (Darkbloom, PrimeIntellect), output 2x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.045 to $0.05 per M (+11%) · output $0.163 to $0.18 (+10%) · cheapest on input and output</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on Kimi K3 (moonshotai/kimi-k3) · input -20%, output +15% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.182 to $0.145 per M (-20%) · output $10.67 to $12.29 (+15%) · cheapest input; output 1.4x the cheapest (KT)</li><li>Wafer (wafer/fast) · input $0.145 to $0.153 per M (+6%) · input 1.1x the cheapest (Relace), output 1.8x the cheapest (KT)</li><li>Cheapest input: now Relace at $0.145 per M · was Wafer, now $0.153</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3">MoonshotAI: Kimi K3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3</link>
+<guid isPermaLink="false">moonshotai/kimi-k3-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Io Net on Kimi K3.1 Pro (moonshotai/kimi-k3.1-pro) · input +7%, output +7% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Io Net (io-net/fp4) · input $1.54 to $1.65 per M (+7%) · output $8.40 to $9.00 (+7%) · listed discount 30% to 25% · input 6.9x the cheapest (Relace), output 1.5x the cheapest (Decart)</li><li>Morph (morph/fp8) · input $1.38 to $1.31 per M (-5%) · output $9.00 to $8.55 (-5%) · input 5.4x the cheapest (Relace), output 1.4x the cheapest (Decart)</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3.1-pro">MoonshotAI: Kimi K3.1 Pro on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3.1-pro</link>
+<guid isPermaLink="false">moonshotai/kimi-k3.1-pro-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider briefly unlisted: Morph on GLM 5.2 (z-ai/glm-5.2) · came back]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) was briefly unlisted and came back</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model delisted: GLM 5.2 (batch) (z-ai/glm-5.2:batch)]]></title>
+<description><![CDATA[<ul><li>No longer in OpenRouter's model list</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2:batch">Z.ai: GLM 5.2 (batch) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2:batch</link>
+<guid isPermaLink="false">z-ai/glm-5.2:batch-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider briefly unlisted: Morph on GLM 5.3 (z-ai/glm-5.3) · came back]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) was briefly unlisted and came back</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3">Z.ai: GLM 5.3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3</link>
+<guid isPermaLink="false">z-ai/glm-5.3-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider briefly unlisted: Morph on GLM 5.3 Flash (z-ai/glm-5.3-flash) · came back]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) was briefly unlisted and came back</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash">Z.ai: GLM 5.3 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Morph on GLM 5.3 Flash (batch) (z-ai/glm-5.3-flash:batch)]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) left</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash:batch">Z.ai: GLM 5.3 Flash (batch) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash:batch</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash:batch-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Morph on GLM 5.3 (batch) (z-ai/glm-5.3:batch)]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) left</li></ul><p>Between the snapshots of Nov 28, 06:43 UTC and Nov 28, 07:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3:batch">Z.ai: GLM 5.3 (batch) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3:batch</link>
+<guid isPermaLink="false">z-ai/glm-5.3:batch-2026-11-28T07:57:47Z</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -12%, output +2% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.34 to $0.299 per M (-12%) · output $1.51 to $1.54 (+2%) · cheapest input; output 2.5x the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.351 to $0.311 per M (-12%) · output $0.703 to $0.622 (-12%) · listed discount 80% to 82% · input 4% above the cheapest (Relace), output less than 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.34 to $0.309 per M (-9%) · output $0.679 to $0.619 (-9%) · listed discount 80% to 82% · cheapest output; input 3% above the cheapest (Relace)</li><li>Cheapest input: now Relace at $0.299 per M · was Baidu, now $0.309</li></ul><p>Between the snapshots of Nov 28, 05:41 UTC and Nov 28, 06:43 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T06:43:25Z</guid>
+<pubDate>Sat, 28 Nov 2026 06:43:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · output +1% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · output $0.315 to $0.318 per M (+1%) · input and output 2x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.045 per M (-10%) · output $0.18 to $0.163 (-9%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 28, 05:41 UTC and Nov 28, 06:43 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-28T06:43:25Z</guid>
+<pubDate>Sat, 28 Nov 2026 06:43:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on Kimi K3 (moonshotai/kimi-k3) · input +26%, output -13% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.145 to $0.182 per M (+26%) · output $12.29 to $10.67 (-13%) · input 1.3x the cheapest (Wafer), output 1.2x the cheapest (KT)</li><li>Wafer (wafer/fast) · input $0.153 to $0.145 per M (-5%) · cheapest input; output 1.8x the cheapest (KT)</li><li>Cheapest input: now Wafer at $0.145 per M · was Relace, now $0.182</li></ul><p>Between the snapshots of Nov 28, 05:41 UTC and Nov 28, 06:43 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3">MoonshotAI: Kimi K3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3</link>
+<guid isPermaLink="false">moonshotai/kimi-k3-2026-11-28T06:43:25Z</guid>
+<pubDate>Sat, 28 Nov 2026 06:43:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: PrimeIntellect (primeintellect/fast) on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input 4.8x the cheapest (Darkbloom), output 4.4x the cheapest (PrimeIntellect)]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/fast) joined at $0.24 / $1.80 per M, input 4.8x the cheapest (Darkbloom), output 4.4x the cheapest (PrimeIntellect)</li></ul><p>Between the snapshots of Nov 28, 05:41 UTC and Nov 28, 06:43 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-28T06:43:25Z</guid>
+<pubDate>Sat, 28 Nov 2026 06:43:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: DeepInfra on Hy4 (tencent/hy4) · input +18%, output +18%]]></title>
+<description><![CDATA[<ul><li>DeepInfra (deepinfra/fp4) · input $0.709 to $0.834 per M (+18%) · output $2.13 to $2.50 (+18%) · listed discount 15% to 0% · input and output 2x the cheapest (Tencent)</li></ul><p>Between the snapshots of Nov 28, 05:41 UTC and Nov 28, 06:43 UTC.</p><p><a href="https://openrouter.ai/tencent/hy4">Tencent: Hy4 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy4</link>
+<guid isPermaLink="false">tencent/hy4-2026-11-28T06:43:25Z</guid>
+<pubDate>Sat, 28 Nov 2026 06:43:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -8%, output -8% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.37 to $0.34 per M (-8%) · output $0.74 to $0.679 (-8%) · listed discount 78% to 80% · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.371 to $0.351 per M (-5%) · output $0.743 to $0.703 (-5%) · listed discount 79% to 80% · input 3% above the cheapest (Baidu), output 3% above the cheapest (Baidu)</li><li>Relace (relace/fp4) · input $0.36 to $0.34 per M (-6%) · output $1.58 to $1.51 (-4%) · input less than 1% above the cheapest (Baidu), output 2.2x the cheapest (Baidu)</li><li>Cheapest input: now Baidu at $0.34 per M · was Relace, now $0.34</li></ul><p>Between the snapshots of Nov 28, 04:44 UTC and Nov 28, 05:41 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T05:41:30Z</guid>
+<pubDate>Sat, 28 Nov 2026 05:41:30 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on Kimi K3 (moonshotai/kimi-k3) · input -20%, output +12% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.182 to $0.145 per M (-20%) · output $11.01 to $12.29 (+12%) · cheapest input; output 1.4x the cheapest (KT)</li><li>Cheapest input: now Relace at $0.145 per M · was Wafer, now $0.153</li></ul><p>Between the snapshots of Nov 28, 04:44 UTC and Nov 28, 05:41 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3">MoonshotAI: Kimi K3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3</link>
+<guid isPermaLink="false">moonshotai/kimi-k3-2026-11-28T05:41:30Z</guid>
+<pubDate>Sat, 28 Nov 2026 05:41:30 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +11%, output +12% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.09 to $0.10 per M (+11%) · output $0.322 to $0.36 (+12%) · input 2x the cheapest (Darkbloom, PrimeIntellect), output 2x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.045 to $0.05 per M (+11%) · output $0.163 to $0.18 (+10%) · cheapest on input and output</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 28, 02:50 UTC and Nov 28, 03:40 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-28T03:40:17Z</guid>
+<pubDate>Sat, 28 Nov 2026 03:40:17 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -7%, output -7% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.0375 to $0.0349 per M (-7%) · output $0.075 to $0.0697 (-7%) · listed discount 73% to 75% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.0337 to $0.0331 per M (-2%) · cheapest input; output 6.5x the cheapest (StreamLake)</li><li>Cheapest output: now StreamLake at $0.0697 per M · was Baidu, now $0.0711</li></ul><p>Between the snapshots of Nov 28, 00:39 UTC and Nov 28, 02:02 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-28T02:02:13Z</guid>
+<pubDate>Sat, 28 Nov 2026 02:02:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -10%, output -10% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.524 to $0.473 per M (-10%) · output $1.05 to $0.946 (-10%) · listed discount 70% to 73% · input 2% above the cheapest (Relace), output less than 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.512 to $0.472 per M (-8%) · output $1.02 to $0.943 (-8%) · listed discount 70% to 72% · cheapest output; input 2% above the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.512 to $0.462 per M (-10%) · output $1.57 to $1.52 (-3%) · cheapest input; output 1.6x the cheapest (Baidu)</li><li>Cheapest input: now Relace at $0.462 per M · was Baidu, now $0.472</li></ul><p>Between the snapshots of Nov 28, 00:39 UTC and Nov 28, 02:02 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T02:02:13Z</guid>
+<pubDate>Sat, 28 Nov 2026 02:02:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -10%, output -11% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.09 per M (-10%) · output $0.36 to $0.322 (-11%) · input and output 2x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.045 per M (-10%) · output $0.18 to $0.163 (-9%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 28, 00:39 UTC and Nov 28, 02:02 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-28T02:02:13Z</guid>
+<pubDate>Sat, 28 Nov 2026 02:02:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Venice on Nemotron 3.5 Lightning (nvidia/nemotron-3.5-lightning) · input 3.8x, output 3.1x the cheapest (Darkbloom) · +1 more change]]></title>
+<description><![CDATA[<ul><li>Venice (venice/fp4) joined at $0.075 / $0.30 per M, input 3.8x, output 3.1x the cheapest (Darkbloom)</li><li>Price range widened · output $0.096 to $0.30 per M (3.1x, above 3x)</li></ul><p>Between the snapshots of Nov 28, 00:39 UTC and Nov 28, 02:02 UTC.</p><p><a href="https://openrouter.ai/nvidia/nemotron-3.5-lightning">NVIDIA: Nemotron 3.5 Lightning on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/nvidia/nemotron-3.5-lightning</link>
+<guid isPermaLink="false">nvidia/nemotron-3.5-lightning-2026-11-28T02:02:13Z</guid>
+<pubDate>Sat, 28 Nov 2026 02:02:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -7%, output -7% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0382 to $0.0356 per M (-7%) · output $0.0764 to $0.0711 (-7%) · listed discount 73% to 75% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.0356 to $0.0337 per M (-5%) · cheapest input; output 6.3x the cheapest (Baidu)</li><li>Cheapest output: now Baidu at $0.0711 per M · was StreamLake, now $0.075</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Alibaba (alibaba) on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · input +100%, output +100% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Alibaba · input $0.176 to $0.352 per M (+100%) · output $0.528 to $1.06 (+100%) · input and output 7.8x the cheapest (Baidu)</li><li>Alibaba (alibaba/us-east-1) · input $0.187 to $0.374 per M (+100%) · output $0.561 to $1.12 (+100%) · input and output 8.3x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -6%, output -6% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.542 to $0.512 per M (-6%) · output $1.08 to $1.02 (-6%) · listed discount 68% to 70% · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.544 to $0.524 per M (-4%) · output $1.09 to $1.05 (-4%) · listed discount 69% to 70% · input 2% above the cheapest (Baidu), output 2% above the cheapest (Baidu)</li><li>Relace (relace/fp4) · input $0.543 to $0.512 per M (-6%) · input less than 1% above the cheapest (Baidu), output 1.5x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Alibaba (alibaba/us-east-1) on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input +100%, output +100% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Alibaba (alibaba/us-east-1) · input $0.66 to $1.32 per M (+100%) · output $1.98 to $3.96 (+100%) · input 13x the cheapest (Relace), output 2x the cheapest (Baidu)</li><li>Alibaba · input $0.581 to $1.12 per M (+93%) · output $1.74 to $3.37 (+93%) · input 11x the cheapest (Relace), output 1.7x the cheapest (Baidu)</li><li>Cheapest output: now Baidu at $1.98 per M · was Alibaba, now $3.37</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Alibaba on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash) · input +100%, output +100%]]></title>
+<description><![CDATA[<ul><li>Alibaba · input $0.09 to $0.18 per M (+100%) · output $0.36 to $0.72 (+100%) · input and output 3.6x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Alibaba on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +100%, output +100%]]></title>
+<description><![CDATA[<ul><li>Alibaba · input $0.09 to $0.18 per M (+100%) · output $0.36 to $0.72 (+100%) · input 5x the cheapest (Wafer), output 7.2x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📷 Image model · Model delisted: Recraft V4.1 Flash V2 (free) (recraft/recraft-v4.1-flash-v2:free)]]></title>
+<description><![CDATA[<ul><li>No longer in OpenRouter's model list</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/recraft/recraft-v4.1-flash-v2:free">Recraft: Recraft V4.1 Flash V2 (free) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/recraft/recraft-v4.1-flash-v2:free</link>
+<guid isPermaLink="false">recraft/recraft-v4.1-flash-v2:free-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Tencent on Hy3 (tencent/hy3) · input +60%, output +60%]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.0825 to $0.132 per M (+60%) · output $0.33 to $0.528 (+60%)</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/tencent/hy3">Tencent: Hy3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy3</link>
+<guid isPermaLink="false">tencent/hy3-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Tencent on Hy4 preview (tencent/hy4-preview) · input +11%, output +11% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.751 to $0.834 per M (+11%) · output $2.25 to $2.50 (+11%) · cheapest on input and output</li><li>Cheapest endpoint: SiliconFlow now ties Tencent</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/tencent/hy4-preview">Tencent: Hy4 preview on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy4-preview</link>
+<guid isPermaLink="false">tencent/hy4-preview-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Krea on GLM 5.3 (z-ai/glm-5.3) · input 12x the cheapest (Wafer), output 1.9x the cheapest (2 Wafer endpoints) · +1 more change]]></title>
+<description><![CDATA[<ul><li>Krea (krea/fp4) joined at $0.83 / $2.62 per M, input 12x the cheapest (Wafer), output 1.9x the cheapest (2 Wafer endpoints)</li><li>Morph (morph/fp8) · input $1.00 to $1.21 per M (+21%) · output $4.68 to $5.66 (+21%) · input 17x the cheapest (Wafer), output 4x the cheapest (2 Wafer endpoints)</li></ul><p>Between the snapshots of Nov 27, 23:50 UTC and Nov 28, 00:39 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3">Z.ai: GLM 5.3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3</link>
+<guid isPermaLink="false">z-ai/glm-5.3-2026-11-28T00:39:36Z</guid>
+<pubDate>Sat, 28 Nov 2026 00:39:36 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -5%, output +1% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.573 to $0.543 per M (-5%) · output $1.54 to $1.57 (+1%) · input less than 1% above the cheapest (Baidu), output 1.4x the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.584 to $0.544 per M (-7%) · output $1.17 to $1.09 (-7%) · listed discount 66% to 69% · input less than 1% above the cheapest (Baidu), output less than 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.573 to $0.542 per M (-5%) · output $1.15 to $1.08 (-5%) · listed discount 66% to 68% · cheapest on input and output</li></ul><p>Between the snapshots of Nov 27, 22:54 UTC and Nov 27, 23:50 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T23:50:19Z</guid>
+<pubDate>Fri, 27 Nov 2026 23:50:19 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -3%, output +1% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.593 to $0.573 per M (-3%) · output $1.52 to $1.54 (+1%) · input less than 1% above the cheapest (Baidu), output 1.3x the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.603 to $0.573 per M (-5%) · output $1.21 to $1.15 (-5%) · listed discount 64% to 66% · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.605 to $0.584 per M (-3%) · output $1.21 to $1.17 (-3%) · listed discount 65% to 66% · input 2% above the cheapest (Baidu), output 2% above the cheapest (Baidu)</li><li>Cheapest input: now Baidu at $0.573 per M · was Relace, now $0.573</li></ul><p>Between the snapshots of Nov 27, 21:53 UTC and Nov 27, 22:54 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T22:54:49Z</guid>
+<pubDate>Fri, 27 Nov 2026 22:54:49 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Featherless on MiMo-V2.6-Flash (xiaomi/mimo-v2.6-flash) · input -40%, output -40%]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) · input $0.25 to $0.15 per M (-40%) · output $0.80 to $0.48 (-40%) · listed discount 0% to 40% · input 1.5x the cheapest (Darkbloom), output 1.7x the cheapest (Cohere, Darkbloom, DeepInfra, Makora, Venice, Xiaomi)</li></ul><p>Between the snapshots of Nov 27, 21:53 UTC and Nov 27, 22:54 UTC.</p><p><a href="https://openrouter.ai/xiaomi/mimo-v2.6-flash">Xiaomi: MiMo-V2.6-Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/xiaomi/mimo-v2.6-flash</link>
+<guid isPermaLink="false">xiaomi/mimo-v2.6-flash-2026-11-27T22:54:49Z</guid>
+<pubDate>Fri, 27 Nov 2026 22:54:49 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.2 (z-ai/glm-5.2) · input -62%, output -62% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.504 to $0.189 per M (-62%) · output $1.58 to $0.594 (-62%) · listed discount 64% to 87% · cheapest output; input 27x the cheapest (Relace)</li><li>StreamLake (streamlake/fp8) · input $0.497 to $0.28 per M (-44%) · output $1.56 to $0.88 (-44%) · listed discount 65% to 80% · input 41x the cheapest (Relace), output 1.5x the cheapest (Baidu)</li><li>Cheapest output: now Baidu at $0.594 per M · was DeepInfra, now $1.44</li></ul><p>Between the snapshots of Nov 27, 21:53 UTC and Nov 27, 22:54 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T22:54:49Z</guid>
+<pubDate>Fri, 27 Nov 2026 22:54:49 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Tenstorrent on GLM 5.3 Flash (z-ai/glm-5.3-flash)]]></title>
+<description><![CDATA[<ul><li>Tenstorrent (tenstorrent/fp8) left</li></ul><p>Between the snapshots of Nov 27, 21:53 UTC and Nov 27, 22:54 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash">Z.ai: GLM 5.3 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash-2026-11-27T22:54:49Z</guid>
+<pubDate>Fri, 27 Nov 2026 22:54:49 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -5%, output +1% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.624 to $0.593 per M (-5%) · output $1.50 to $1.52 (+1%) · cheapest input; output 1.3x the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.655 to $0.605 per M (-8%) · output $1.31 to $1.21 (-8%) · listed discount 62% to 65% · input 2% above the cheapest (Relace), output less than 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.634 to $0.603 per M (-5%) · output $1.27 to $1.21 (-5%) · listed discount 63% to 64% · cheapest output; input 2% above the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 20:53 UTC and Nov 27, 21:53 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T21:53:19Z</guid>
+<pubDate>Fri, 27 Nov 2026 21:53:19 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Endpoint removed: Venice (venice/ultrafast) on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash)]]></title>
+<description><![CDATA[<ul><li>Venice (venice/ultrafast) endpoint removed</li></ul><p>Between the snapshots of Nov 27, 20:53 UTC and Nov 27, 21:53 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-27T21:53:19Z</guid>
+<pubDate>Fri, 27 Nov 2026 21:53:19 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Venice (venice/ultrafast) on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input 42x the cheapest (Wafer), output 60x the cheapest (2 Sail Research endpoints)]]></title>
+<description><![CDATA[<ul><li>Venice (venice/ultrafast) joined at $1.50 / $6.00 per M, input 42x the cheapest (Wafer), output 60x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 20:53 UTC and Nov 27, 21:53 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T21:53:19Z</guid>
+<pubDate>Fri, 27 Nov 2026 21:53:19 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model delisted: Qwen3 235B A22B Thinking 2507 (qwen/qwen3-235b-a22b-thinking-2507)]]></title>
+<description><![CDATA[<ul><li>No longer in OpenRouter's model list</li></ul><p>Between the snapshots of Nov 27, 20:53 UTC and Nov 27, 21:53 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507">Qwen: Qwen3 235B A22B Thinking 2507 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3-235b-a22b-thinking-2507</link>
+<guid isPermaLink="false">qwen/qwen3-235b-a22b-thinking-2507-2026-11-27T21:53:19Z</guid>
+<pubDate>Fri, 27 Nov 2026 21:53:19 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on GLM 5.2 (z-ai/glm-5.2) · input -2%, output -2%]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.505 to $0.497 per M (-2%) · output $1.59 to $1.56 (-2%) · listed discount 64% to 65% · input 72x the cheapest (Relace), output 1.1x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 20:53 UTC and Nov 27, 21:53 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T21:53:19Z</guid>
+<pubDate>Fri, 27 Nov 2026 21:53:19 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price range widened: DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input and output price range above 3x as the cheapest fell · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Price range widened · input $0.624 to $1.95 per M (3.1x, above 3x, as the cheapest fell) · output $1.27 to $3.90 (3.1x, above 3x, as the cheapest fell)</li><li>Baidu (baidu/fp8) · input $0.664 to $0.634 per M (-5%) · output $1.33 to $1.27 (-5%) · listed discount 61% to 63% · cheapest output; input 2% above the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.654 to $0.624 per M (-5%) · output $1.57 to $1.50 (-4%) · cheapest input; output 1.2x the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.676 to $0.655 per M (-3%) · output $1.35 to $1.31 (-3%) · listed discount 61% to 62% · input 1.1x the cheapest (Relace), output 3% above the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 19:56 UTC and Nov 27, 20:53 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T20:53:18Z</guid>
+<pubDate>Fri, 27 Nov 2026 20:53:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +14%, output +14% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.044 to $0.05 per M (+14%) · output $0.158 to $0.18 (+14%) · cheapest on input and output</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 27, 19:56 UTC and Nov 27, 20:53 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T20:53:18Z</guid>
+<pubDate>Fri, 27 Nov 2026 20:53:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Ambient on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input +100%, output +28% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Ambient (ambient/fp8) · input $0.05 to $0.10 per M (+100%) · output $0.69 to $0.88 (+28%) · input 2x the cheapest (Darkbloom), output 2x the cheapest (PrimeIntellect)</li><li>Cheapest input: Darkbloom alone (Ambient no longer ties)</li></ul><p>Between the snapshots of Nov 27, 19:56 UTC and Nov 27, 20:53 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-27T20:53:18Z</guid>
+<pubDate>Fri, 27 Nov 2026 20:53:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Endpoint removed: Tenstorrent (tenstorrent/fast) on Qwen3.8 27B (qwen/qwen3.8-27b) · +1 more change]]></title>
+<description><![CDATA[<ul><li>Tenstorrent (tenstorrent/fast) endpoint removed</li><li>PrimeIntellect (primeintellect/fp8) · input $0.228 to $0.24 per M (+5%) · output $2.09 to $2.20 (+5%) · input 6.9x the cheapest (Darkbloom), output 2.1x the cheapest (StreamLake)</li></ul><p>Between the snapshots of Nov 27, 19:56 UTC and Nov 27, 20:53 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.8-27b">Qwen: Qwen3.8 27B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.8-27b</link>
+<guid isPermaLink="false">qwen/qwen3.8-27b-2026-11-27T20:53:18Z</guid>
+<pubDate>Fri, 27 Nov 2026 20:53:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Featherless on GLM 5.2 (z-ai/glm-5.2) · input -40%, output -40%]]></title>
+<description><![CDATA[<ul><li>Featherless · input $1.40 to $0.84 per M (-40%) · output $4.40 to $2.64 (-40%) · listed discount 0% to 40% · input 122x the cheapest (Relace), output 1.8x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 19:56 UTC and Nov 27, 20:53 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T20:53:18Z</guid>
+<pubDate>Fri, 27 Nov 2026 20:53:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -6%, output +1% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.695 to $0.654 per M (-6%) · output $1.54 to $1.57 (+1%) · cheapest input; output 1.2x the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.695 to $0.664 per M (-4%) · output $1.39 to $1.33 (-4%) · listed discount 59% to 61% · cheapest output; input 2% above the cheapest (Relace)</li><li>StreamLake (streamlake/fp8) · input $0.696 to $0.676 per M (-3%) · output $1.39 to $1.35 (-3%) · listed discount 60% to 61% · input 3% above the cheapest (Relace), output 2% above the cheapest (Baidu)</li><li>Cheapest input: now Relace at $0.654 per M · was Baidu, now $0.664</li></ul><p>Between the snapshots of Nov 27, 18:54 UTC and Nov 27, 19:56 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T19:56:30Z</guid>
+<pubDate>Fri, 27 Nov 2026 19:56:30 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: NextBit on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -25%, output -25% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>NextBit (nextbit/fp4) · input $0.09 to $0.0675 per M (-25%) · output $0.30 to $0.225 (-25%) · listed discount 0% to 25% · input 1.5x, output 1.4x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.044 per M (-12%) · output $0.18 to $0.158 (-12%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 27, 18:54 UTC and Nov 27, 19:56 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T19:56:30Z</guid>
+<pubDate>Fri, 27 Nov 2026 19:56:30 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.2 (z-ai/glm-5.2) · input -3%, output -3% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.521 to $0.504 per M (-3%) · output $1.64 to $1.58 (-3%) · listed discount 63% to 64% · input 73x the cheapest (Relace), output 1.1x the cheapest (DeepInfra)</li><li>StreamLake (streamlake/fp8) · input $0.514 to $0.505 per M (-2%) · output $1.61 to $1.59 (-2%) · listed discount 63% to 64% · input 73x the cheapest (Relace), output 1.1x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 18:54 UTC and Nov 27, 19:56 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T19:56:30Z</guid>
+<pubDate>Fri, 27 Nov 2026 19:56:30 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -3%, output +1% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.715 to $0.695 per M (-3%) · output $1.52 to $1.54 (+1%) · input less than 1% above the cheapest (Baidu), output 1.1x the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.757 to $0.696 per M (-8%) · output $1.51 to $1.39 (-8%) · listed discount 56% to 60% · input less than 1% above the cheapest (Baidu), output less than 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.725 to $0.695 per M (-4%) · output $1.45 to $1.39 (-4%) · listed discount 57% to 59% · cheapest on input and output</li><li>Cheapest input: now Baidu at $0.695 per M · was Relace, now $0.695</li></ul><p>Between the snapshots of Nov 27, 17:54 UTC and Nov 27, 18:54 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T18:54:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 18:54:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +25%, output +25% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.08 to $0.10 per M (+25%) · output $0.287 to $0.36 (+25%) · input 2x the cheapest (Darkbloom, PrimeIntellect), output 2x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.042 to $0.05 per M (+19%) · output $0.15 to $0.18 (+20%) · cheapest on input and output</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 27, 17:54 UTC and Nov 27, 18:54 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T18:54:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 18:54:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Morph on Kimi K3.1 Pro (moonshotai/kimi-k3.1-pro) · input +5%, output +5% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) · input $1.31 to $1.38 per M (+5%) · output $8.55 to $9.00 (+5%) · input 5.7x the cheapest (Relace), output 1.5x the cheapest (Decart)</li><li>Io Net (io-net/fp4) · input $2.20 to $1.54 per M (-30%) · output $12.00 to $8.40 (-30%) · listed discount 0% to 30% · input 6.4x the cheapest (Relace), output 1.4x the cheapest (Decart)</li></ul><p>Between the snapshots of Nov 27, 17:54 UTC and Nov 27, 18:54 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3.1-pro">MoonshotAI: Kimi K3.1 Pro on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3.1-pro</link>
+<guid isPermaLink="false">moonshotai/kimi-k3.1-pro-2026-11-27T18:54:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 18:54:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: PrimeIntellect (primeintellect/flex) on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · cheapest output; input 1.2x the cheapest (Ambient, Darkbloom) · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) joined at $0.06 / $0.45 per M, cheapest output; input 1.2x the cheapest (Ambient, Darkbloom)</li><li>Price range widened · output $0.45 to $1.80 per M (4x, above 3x, as the cheapest fell)</li><li>Cheapest output: now PrimeIntellect at $0.45 per M · was Ambient, now $0.69</li></ul><p>Between the snapshots of Nov 27, 17:54 UTC and Nov 27, 18:54 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-27T18:54:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 18:54:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on GLM 5.2 (z-ai/glm-5.2) · input -3%, output -3% · +1 more change]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.531 to $0.514 per M (-3%) · output $1.67 to $1.61 (-3%) · listed discount 62% to 63% · input 74x the cheapest (Relace), output 1.1x the cheapest (DeepInfra)</li><li>Baidu (baidu/fp8) · input $0.529 to $0.521 per M (-2%) · output $1.66 to $1.64 (-2%) · listed discount 62% to 63% · input 75x the cheapest (Relace), output 1.1x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 17:54 UTC and Nov 27, 18:54 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T18:54:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 18:54:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📷 Image model · Model delisted: MAI-Image-2.5 (microsoft/mai-image-2.5)]]></title>
+<description><![CDATA[<ul><li>No longer in OpenRouter's model list</li></ul><p>Between the snapshots of Nov 27, 17:03 UTC and Nov 27, 17:54 UTC.</p><p><a href="https://openrouter.ai/microsoft/mai-image-2.5">Microsoft AI: MAI-Image-2.5 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/microsoft/mai-image-2.5</link>
+<guid isPermaLink="false">microsoft/mai-image-2.5-2026-11-27T17:54:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:54:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📷 Image model · Model delisted: MAI-Image-2.5 Pro (microsoft/mai-image-2.5-pro)]]></title>
+<description><![CDATA[<ul><li>No longer in OpenRouter's model list</li></ul><p>Between the snapshots of Nov 27, 17:03 UTC and Nov 27, 17:54 UTC.</p><p><a href="https://openrouter.ai/microsoft/mai-image-2.5-pro">Microsoft AI: MAI-Image-2.5 Pro on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/microsoft/mai-image-2.5-pro</link>
+<guid isPermaLink="false">microsoft/mai-image-2.5-pro-2026-11-27T17:54:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:54:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Darkbloom on gpt-oss-20b (openai/gpt-oss-20b) · input +11%, output +11% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Darkbloom (darkbloom/fp4) · input $0.0153 to $0.017 per M (+11%) · output $0.0765 to $0.085 (+11%) · cheapest on input and output</li><li>PrimeIntellect (primeintellect/fp4) · input $0.187 to $0.183 per M (-2%) · output $0.28 to $0.275 (-2%) · input 11x, output 3.2x the cheapest (Darkbloom)</li></ul><p>Between the snapshots of Nov 27, 17:03 UTC and Nov 27, 17:54 UTC.</p><p><a href="https://openrouter.ai/openai/gpt-oss-20b">OpenAI: gpt-oss-20b on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/openai/gpt-oss-20b</link>
+<guid isPermaLink="false">openai/gpt-oss-20b-2026-11-27T17:54:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:54:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: PrimeIntellect (primeintellect/flex) on Qwen3.5-9B (qwen/qwen3.5-9b) · cheapest on input and output · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) joined at $0.0425 / $0.0625 per M, cheapest on input and output</li><li>Price range widened · input $0.0425 to $0.17 per M (4x, above 3x, as the cheapest fell) · output $0.0625 to $0.25 (4x, above 3x, as the cheapest fell)</li><li>Cheapest input: now PrimeIntellect at $0.0425 per M · was Darkbloom, DeepInfra, now $0.08. Cheapest output: now PrimeIntellect at $0.0625 per M · was DeepInfra, now $0.12</li></ul><p>Between the snapshots of Nov 27, 17:03 UTC and Nov 27, 17:54 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T17:54:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:54:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -6%, output -6% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.808 to $0.757 per M (-6%) · output $1.62 to $1.51 (-6%) · listed discount 54% to 56% · input 3% above the cheapest (Relace), output 2% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.786 to $0.745 per M (-5%) · output $1.57 to $1.49 (-5%) · listed discount 54% to 56% · cheapest output; input 1% above the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.776 to $0.735 per M (-5%) · output $1.57 to $1.50 (-4%) · cheapest input; output 1% above the cheapest (Baidu)</li><li>Cheapest output: now Baidu at $1.49 per M · was Relace, now $1.50</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -20%, output -20% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.08 per M (-20%) · output $0.36 to $0.287 (-20%) · input and output 1.9x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.042 per M (-16%) · output $0.18 to $0.15 (-17%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📷 Image model · No providers left: MAI-Image-2.5 (microsoft/mai-image-2.5)]]></title>
+<description><![CDATA[<ul><li>OpenRouter lists no providers for this model now</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/microsoft/mai-image-2.5">Microsoft AI: MAI-Image-2.5 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/microsoft/mai-image-2.5</link>
+<guid isPermaLink="false">microsoft/mai-image-2.5-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: NextBit on Mistral Nemo (mistralai/mistral-nemo) · input 1.8x, output 1.4x the cheapest (Io Net)]]></title>
+<description><![CDATA[<ul><li>NextBit (nextbit/int4) joined at $0.03 / $0.03 per M, input 1.8x, output 1.4x the cheapest (Io Net)</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/mistralai/mistral-nemo">Mistral: Mistral Nemo on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/mistralai/mistral-nemo</link>
+<guid isPermaLink="false">mistralai/mistral-nemo-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/bf16) on Qwen3.5-9B (qwen/qwen3.5-9b) · input +29%, output +29% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.066 to $0.085 per M (+29%) · output $0.097 to $0.125 (+29%) · input 1.1x the cheapest (Darkbloom, DeepInfra), output 4% above the cheapest (DeepInfra)</li><li>Cheapest input: now Darkbloom and DeepInfra, tied, at $0.08 per M · was PrimeIntellect, now $0.085. Cheapest output: now DeepInfra at $0.12 per M · was PrimeIntellect, now $0.125</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Tencent on Hy3 (tencent/hy3) · input -37%, output -37%]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.132 to $0.0825 per M (-37%) · output $0.528 to $0.33 (-37%)</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/tencent/hy3">Tencent: Hy3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy3</link>
+<guid isPermaLink="false">tencent/hy3-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Tencent on Hy4 preview (tencent/hy4-preview) · input -10%, output -10% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.834 to $0.751 per M (-10%) · output $2.50 to $2.25 (-10%) · cheapest on input and output</li><li>Cheapest endpoint: Tencent alone (SiliconFlow no longer ties)</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/tencent/hy4-preview">Tencent: Hy4 preview on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy4-preview</link>
+<guid isPermaLink="false">tencent/hy4-preview-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.2 (z-ai/glm-5.2) · input -3%, output -3% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.546 to $0.529 per M (-3%) · output $1.72 to $1.66 (-3%) · listed discount 61% to 62% · input 77x the cheapest (Relace), output 1.2x the cheapest (DeepInfra)</li><li>StreamLake (streamlake/fp8) · input $0.547 to $0.531 per M (-3%) · output $1.72 to $1.67 (-3%) · listed discount 61% to 62% · input 77x the cheapest (Relace), output 1.2x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 15:57 UTC and Nov 27, 17:03 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T17:03:07Z</guid>
+<pubDate>Fri, 27 Nov 2026 17:03:07 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -10%, output -10% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.0419 to $0.0375 per M (-10%) · output $0.0837 to $0.075 (-10%) · listed discount 70% to 73% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Baidu (baidu/fp8) · input $0.0403 to $0.0382 per M (-5%) · output $0.0806 to $0.0764 (-5%) · listed discount 71% to 73% · input 1.1x the cheapest (Relace), output 2% above the cheapest (StreamLake)</li><li>Relace (relace/fp4) · input $0.0383 to $0.0356 per M (-7%) · cheapest input; output 6x the cheapest (StreamLake)</li><li>Cheapest output: now StreamLake at $0.075 per M · was Baidu, now $0.0764</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -4%, output +2% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.806 to $0.776 per M (-4%) · output $1.54 to $1.57 (+2%) · cheapest on input and output</li><li>Baidu (baidu/fp8) · input $0.816 to $0.786 per M (-4%) · output $1.63 to $1.57 (-4%) · listed discount 52% to 54% · input 1% above the cheapest (Relace), output less than 1% above the cheapest (Relace)</li><li>StreamLake (streamlake/fp8) · input $0.838 to $0.808 per M (-4%) · output $1.68 to $1.62 (-4%) · listed discount 52% to 54% · input 4% above the cheapest (Relace), output 3% above the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +16%, output +16% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.043 to $0.05 per M (+16%) · output $0.155 to $0.18 (+16%) · cheapest on input and output</li><li>PrimeIntellect (primeintellect/bf16) · input $0.088 to $0.10 per M (+14%) · output $0.316 to $0.36 (+14%) · input 2x the cheapest (Darkbloom, PrimeIntellect), output 2x the cheapest (PrimeIntellect)</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Inceptron on Kimi K2.6 (moonshotai/kimi-k2.6) · input +3%]]></title>
+<description><![CDATA[<ul><li>Inceptron (inceptron/int4) · input $0.585 to $0.605 per M (+3%) · input 1.6x, output 1.9x the cheapest (Chutes)</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k2.6">MoonshotAI: Kimi K2.6 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k2.6</link>
+<guid isPermaLink="false">moonshotai/kimi-k2.6-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.1 (z-ai/glm-5.1) · input -36%, output -36% · cheapest now Baidu]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $1.40 to $0.899 per M (-36%) · output $4.40 to $2.82 (-36%) · listed discount 0% to 36% · cheapest on input and output</li><li>Cheapest endpoint: now Baidu at $0.899 in / $2.82 out per M · was Chutes, now $0.90 in / $2.90 out</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.1">Z.ai: GLM 5.1 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.1</link>
+<guid isPermaLink="false">z-ai/glm-5.1-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.2 (z-ai/glm-5.2) · input -61%, output -61% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $1.40 to $0.546 per M (-61%) · output $4.40 to $1.72 (-61%) · listed discount 0% to 61% · input 79x the cheapest (Relace), output 1.2x the cheapest (DeepInfra)</li><li>StreamLake (streamlake/fp8) · input $0.556 to $0.547 per M (-1%) · output $1.75 to $1.72 (-1%) · listed discount 60% to 61% · input 79x the cheapest (Relace), output 1.2x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Reka on GLM 5.3 (z-ai/glm-5.3) · input 16x the cheapest (Wafer), output 2.9x the cheapest (2 Wafer endpoints) · +1 more change]]></title>
+<description><![CDATA[<ul><li>Reka joined at $1.15 / $4.00 per M, input 16x the cheapest (Wafer), output 2.9x the cheapest (2 Wafer endpoints)</li><li>Morph (morph/fp8) · input $1.06 to $1.05 per M (-1%) · output $4.96 to $4.92 (-1%) · input 15x the cheapest (Wafer), output 3.5x the cheapest (2 Wafer endpoints)</li></ul><p>Between the snapshots of Nov 27, 14:52 UTC and Nov 27, 15:57 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3">Z.ai: GLM 5.3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3</link>
+<guid isPermaLink="false">z-ai/glm-5.3-2026-11-27T15:57:13Z</guid>
+<pubDate>Fri, 27 Nov 2026 15:57:13 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -40%, output -40% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.07 to $0.0419 per M (-40%) · output $0.14 to $0.0837 (-40%) · listed discount 50% to 70% · input 1.1x the cheapest (Relace), output 4% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.0448 to $0.0403 per M (-10%) · output $0.0896 to $0.0806 (-10%) · listed discount 68% to 71% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.0426 to $0.0383 per M (-10%) · cheapest input; output 5.6x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Alibaba (alibaba) on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · input -50%, output -50% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Alibaba · input $0.352 to $0.176 per M (-50%) · output $1.06 to $0.528 (-50%) · input and output 3.9x the cheapest (Baidu)</li><li>Alibaba (alibaba/us-east-1) · input $0.374 to $0.187 per M (-50%) · output $1.12 to $0.561 (-50%) · input and output 4.1x the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.132 to $0.088 per M (-33%) · output $0.396 to $0.264 (-33%) · listed discount 70% to 80% · input and output 1.9x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -5%, output +1% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.847 to $0.806 per M (-5%) · output $1.52 to $1.54 (+1%) · cheapest on input and output</li><li>Baidu (baidu/fp8) · input $0.855 to $0.816 per M (-5%) · output $1.71 to $1.63 (-5%) · listed discount 49% to 52% · input 1% above the cheapest (Relace), output 1.1x the cheapest (Relace)</li><li>StreamLake (streamlake/fp8) · input $0.865 to $0.838 per M (-3%) · output $1.73 to $1.68 (-3%) · listed discount 50% to 52% · input 4% above the cheapest (Relace), output 1.1x the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Alibaba (alibaba/us-east-1) on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input -50%, output -50% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Alibaba (alibaba/us-east-1) · input $1.32 to $0.66 per M (-50%) · output $3.96 to $1.98 (-50%) · input 6.6x the cheapest (Relace), output 1.1x the cheapest (Alibaba)</li><li>Alibaba · input $1.12 to $0.581 per M (-48%) · output $3.37 to $1.74 (-48%) · cheapest output; input 5.8x the cheapest (Relace)</li><li>Cheapest output: now Alibaba at $1.74 per M · was Baidu, now $1.98</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Alibaba on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash) · input -50%, output -50%]]></title>
+<description><![CDATA[<ul><li>Alibaba · input $0.18 to $0.09 per M (-50%) · output $0.72 to $0.36 (-50%) · input and output 1.8x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Alibaba on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input -50%, output -50%]]></title>
+<description><![CDATA[<ul><li>Alibaba · input $0.18 to $0.09 per M (-50%) · output $0.72 to $0.36 (-50%) · input 2.5x the cheapest (Wafer), output 3.6x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/bf16) on Qwen3.5-9B (qwen/qwen3.5-9b) · input -22%, output -22% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.085 to $0.066 per M (-22%) · output $0.125 to $0.097 (-22%) · cheapest on input and output</li><li>Cheapest input: now PrimeIntellect at $0.066 per M · was Darkbloom, DeepInfra, now $0.08. Cheapest output: now PrimeIntellect at $0.097 per M · was DeepInfra, now $0.12</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on GLM 5.2 (z-ai/glm-5.2) · input -9%, output -9%]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.613 to $0.556 per M (-9%) · output $1.93 to $1.75 (-9%) · listed discount 56% to 60% · input 81x the cheapest (Relace), output 1.2x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Inceptron on GLM 5.3 Flash (z-ai/glm-5.3-flash) · input +15% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Inceptron (inceptron/fp8) · input $0.13 to $0.15 per M (+15%) · input 4.2x, output 3.7x the cheapest (Relace)</li><li>Morph (morph/fp8) · input $0.104 to $0.109 per M (+5%) · output $0.30 to $0.314 (+5%) · input 3.1x, output 3.9x the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 14:01 UTC and Nov 27, 14:52 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash">Z.ai: GLM 5.3 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash-2026-11-27T14:52:25Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:52:25 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Venice on DeepSeek V3.2 (deepseek/deepseek-v3.2) · cheapest output; input less than 1% above the cheapest (SiliconFlow) · +1 more change]]></title>
+<description><![CDATA[<ul><li>Venice joined at $0.26 / $0.38 per M, cheapest output; input less than 1% above the cheapest (SiliconFlow)</li><li>Cheapest output: Venice now ties DeepInfra</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v3.2">DeepSeek: DeepSeek V3.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v3.2</link>
+<guid isPermaLink="false">deepseek/deepseek-v3.2-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: StreamLake on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -15%, output -15% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>StreamLake (streamlake/fp8) · input $0.0826 to $0.07 per M (-15%) · output $0.165 to $0.14 (-15%) · listed discount 41% to 50% · input 1.6x the cheapest (Relace), output 1.6x the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.05 to $0.0448 per M (-10%) · output $0.10 to $0.0896 (-10%) · listed discount 64% to 68% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.05 to $0.0426 per M (-15%) · cheapest input; output 5x the cheapest (Baidu)</li><li>Cheapest input: now Relace at $0.0426 per M · was Baidu, now $0.0448</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Wafer (wafer/fast) on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · input -7% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Wafer (wafer/fast) · input $0.14 to $0.13 per M (-7%) · input 2.9x, output 1.7x the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.0466 to $0.0453 per M (-3%) · output $0.14 to $0.136 (-3%) · listed discount 89% to 90% · cheapest on input and output</li><li>Cheapest input: now Baidu at $0.0453 per M · was Wafer, now $0.0456</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -3%, output +1% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.877 to $0.847 per M (-3%) · output $1.51 to $1.52 (+1%) · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.898 to $0.865 per M (-4%) · output $1.80 to $1.73 (-4%) · listed discount 48% to 50% · input 2% above the cheapest (Relace), output 1.1x the cheapest (Relace)</li><li>Baidu (baidu/fp8) · input $0.887 to $0.855 per M (-4%) · output $1.77 to $1.71 (-4%) · listed discount 48% to 49% · input 1% above the cheapest (Relace), output 1.1x the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input -50%, output -50% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $1.32 to $0.659 per M (-50%) · output $3.96 to $1.98 (-50%) · listed discount 0% to 50% · cheapest output; input 6.6x the cheapest (Relace)</li><li>Cheapest output: now Baidu at $1.98 per M · was DeepSeek, StreamLake, now $1.98</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Featherless on MiniMax M3 (minimax/minimax-m3)]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) left</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/minimax/minimax-m3">MiniMax: MiniMax M3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/minimax/minimax-m3</link>
+<guid isPermaLink="false">minimax/minimax-m3-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: DeepInfra on Hy4 preview (tencent/hy4-preview) · cheapest no longer tied]]></title>
+<description><![CDATA[<ul><li>DeepInfra (deepinfra/fp4) left</li><li>Cheapest endpoint: SiliconFlow, Tencent alone (DeepInfra no longer ties)</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/tencent/hy4-preview">Tencent: Hy4 preview on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy4-preview</link>
+<guid isPermaLink="false">tencent/hy4-preview-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Krea on GLM 5.3 (z-ai/glm-5.3) · Morph input +2%, output +2%]]></title>
+<description><![CDATA[<ul><li>Krea (krea/fp4) left</li><li>Morph (morph/fp8) · input $1.11 to $1.13 per M (+2%) · output $5.20 to $5.29 (+2%) · input 16x the cheapest (Wafer), output 3.8x the cheapest (2 Wafer endpoints)</li></ul><p>Between the snapshots of Nov 27, 12:46 UTC and Nov 27, 14:01 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3">Z.ai: GLM 5.3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3</link>
+<guid isPermaLink="false">z-ai/glm-5.3-2026-11-27T14:01:31Z</guid>
+<pubDate>Fri, 27 Nov 2026 14:01:31 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -64%, output -64% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.14 to $0.05 per M (-64%) · output $0.28 to $0.10 (-64%) · listed discount 0% to 64% · cheapest on input and output</li><li>Cheapest input: now Baidu at $0.05 per M · was Relace, now $0.05. Cheapest output: now Baidu at $0.10 per M · was Fireworks, now $0.14</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · input -89%, output -89% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.44 to $0.0466 per M (-89%) · output $1.32 to $0.14 (-89%) · listed discount 0% to 89% · cheapest output; input 2% above the cheapest (Wafer)</li><li>Wafer (wafer/us) · input $0.047 to $0.0456 per M (-3%) · cheapest input; output 2.1x the cheapest (Baidu)</li><li>Cheapest output: now Baidu at $0.14 per M · was Relace, now $0.14</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash) · input -83%, output -83% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.30 to $0.0507 per M (-83%) · output $1.20 to $0.203 (-83%) · listed discount 0% to 83% · cheapest on input and output</li><li>Cheapest input: now Baidu at $0.0507 per M · was Wafer, now $0.051. Cheapest output: now Baidu at $0.203 per M · was DeepInfra, now $0.336</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -16%, output -15% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.042 per M (-16%) · output $0.18 to $0.153 (-15%) · cheapest on input and output</li><li>PrimeIntellect (primeintellect/bf16) · input $0.082 to $0.07 per M (-15%) · output $0.297 to $0.253 (-15%) · input and output 1.7x the cheapest (PrimeIntellect)</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model listed: Ling 3.2 Flash (inclusionai/ling-3.2-flash) · 1 endpoint]]></title>
+<description><![CDATA[<ul><li>Listed with 1 endpoint</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/inclusionai/ling-3.2-flash">inclusionAI: Ling 3.2 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/inclusionai/ling-3.2-flash</link>
+<guid isPermaLink="false">inclusionai/ling-3.2-flash-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model delisted: Ling 3.2 Flash (free) (inclusionai/ling-3.2-flash:free)]]></title>
+<description><![CDATA[<ul><li>No longer in OpenRouter's model list</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/inclusionai/ling-3.2-flash:free">inclusionAI: Ling 3.2 Flash (free) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/inclusionai/ling-3.2-flash:free</link>
+<guid isPermaLink="false">inclusionai/ling-3.2-flash:free-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Inceptron on GLM 5.3 Flash (z-ai/glm-5.3-flash) · output -40% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Inceptron (inceptron/fp8) · output $0.50 to $0.30 per M (-40%) · input and output 3.7x the cheapest (Relace)</li><li>Morph (morph/fp8) · input $0.112 to $0.11 per M (-2%) · output $0.322 to $0.316 (-2%) · input 3.1x, output 3.9x the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 11:38 UTC and Nov 27, 12:46 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash">Z.ai: GLM 5.3 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash-2026-11-27T12:46:01Z</guid>
+<pubDate>Fri, 27 Nov 2026 12:46:01 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: AtlasCloud on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash)]]></title>
+<description><![CDATA[<ul><li>AtlasCloud (atlas-cloud/fp4) left</li></ul><p>Between the snapshots of Nov 27, 10:38 UTC and Nov 27, 11:38 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T11:38:32Z</guid>
+<pubDate>Fri, 27 Nov 2026 11:38:32 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +11%, output +10% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.045 to $0.05 per M (+11%) · output $0.163 to $0.18 (+10%) · cheapest on input and output</li><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.082 per M (-18%) · output $0.36 to $0.297 (-18%) · input 1.6x the cheapest (Darkbloom, PrimeIntellect), output 1.6x the cheapest (PrimeIntellect)</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 27, 10:38 UTC and Nov 27, 11:38 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T11:38:32Z</guid>
+<pubDate>Fri, 27 Nov 2026 11:38:32 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: DeepSeek on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input -50%, output -50% · +1 more change]]></title>
+<description><![CDATA[<ul><li>DeepSeek · input $1.32 to $0.66 per M (-50%) · output $3.96 to $1.98 (-50%) · cheapest output; input 6.6x the cheapest (Relace)</li><li>Cheapest output: DeepSeek now ties StreamLake</li></ul><p>Between the snapshots of Nov 27, 09:48 UTC and Nov 27, 10:38 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T10:38:41Z</guid>
+<pubDate>Fri, 27 Nov 2026 10:38:41 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Pareto Inference on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input -50%, output -50% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Pareto Inference (pareto-inference/fp8) · input $0.15 to $0.075 per M (-50%) · output $0.60 to $0.30 (-50%) · input 2.1x the cheapest (Wafer), output 3x the cheapest (2 Sail Research endpoints)</li><li>DeepSeek · input $0.30 to $0.15 per M (-50%) · output $1.20 to $0.60 (-50%) · input 4.2x the cheapest (Wafer), output 6x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 09:48 UTC and Nov 27, 10:38 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T10:38:41Z</guid>
+<pubDate>Fri, 27 Nov 2026 10:38:41 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -10%, output -9% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.045 per M (-10%) · output $0.18 to $0.163 (-9%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 27, 09:48 UTC and Nov 27, 10:38 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T10:38:41Z</guid>
+<pubDate>Fri, 27 Nov 2026 10:38:41 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Featherless on MiniMax M3.1 Flash (minimax/minimax-m3.1-flash)]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) left</li></ul><p>Between the snapshots of Nov 27, 09:48 UTC and Nov 27, 10:38 UTC.</p><p><a href="https://openrouter.ai/minimax/minimax-m3.1-flash">MiniMax: MiniMax M3.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/minimax/minimax-m3.1-flash</link>
+<guid isPermaLink="false">minimax/minimax-m3.1-flash-2026-11-27T10:38:41Z</guid>
+<pubDate>Fri, 27 Nov 2026 10:38:41 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Inceptron on Kimi K2.6 (moonshotai/kimi-k2.6) · input +3%, output -1%]]></title>
+<description><![CDATA[<ul><li>Inceptron (inceptron/int4) · input $0.566 to $0.585 per M (+3%) · output $3.42 to $3.38 (-1%) · input 1.5x, output 1.9x the cheapest (Chutes)</li></ul><p>Between the snapshots of Nov 27, 09:48 UTC and Nov 27, 10:38 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k2.6">MoonshotAI: Kimi K2.6 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k2.6</link>
+<guid isPermaLink="false">moonshotai/kimi-k2.6-2026-11-27T10:38:41Z</guid>
+<pubDate>Fri, 27 Nov 2026 10:38:41 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: AtlasCloud on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input 2.8x the cheapest (Relace), output 2x the cheapest (Fireworks)]]></title>
+<description><![CDATA[<ul><li>AtlasCloud (atlas-cloud/fp4) joined at $0.14 / $0.28 per M, input 2.8x the cheapest (Relace), output 2x the cheapest (Fireworks)</li></ul><p>Between the snapshots of Nov 27, 08:38 UTC and Nov 27, 09:48 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T09:48:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 09:48:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +14%, output +14% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.088 to $0.10 per M (+14%) · output $0.316 to $0.36 (+14%) · input 2x the cheapest (Darkbloom, PrimeIntellect), output 2x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.045 to $0.05 per M (+11%) · output $0.163 to $0.18 (+10%) · cheapest on input and output</li><li>Cheapest input: Darkbloom now ties PrimeIntellect</li></ul><p>Between the snapshots of Nov 27, 08:38 UTC and Nov 27, 09:48 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T09:48:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 09:48:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Featherless on MiMo-V2.6-Flash-MOPD (xiaomi/mimo-v2.6-flash-mopd) · input +43%, output +43%]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) · input $0.35 to $0.50 per M (+43%) · output $0.70 to $1.00 (+43%) · listed discount 30% to 0%</li></ul><p>Between the snapshots of Nov 27, 08:38 UTC and Nov 27, 09:48 UTC.</p><p><a href="https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd">Xiaomi: MiMo-V2.6-Flash-MOPD on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd</link>
+<guid isPermaLink="false">xiaomi/mimo-v2.6-flash-mopd-2026-11-27T09:48:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 09:48:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Morph on GLM 5.3 Flash (z-ai/glm-5.3-flash) · input -59%, output -59% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) · input $0.102 to $0.042 per M (-59%) · output $0.295 to $0.121 (-59%) · input 1.2x, output 1.5x the cheapest (Relace)</li><li>Inceptron (inceptron/fp8) · input $0.15 to $0.13 per M (-13%) · input 3.7x, output 6.1x the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 08:38 UTC and Nov 27, 09:48 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash">Z.ai: GLM 5.3 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash-2026-11-27T09:48:47Z</guid>
+<pubDate>Fri, 27 Nov 2026 09:48:47 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Featherless on DeepSeek V3.2 (deepseek/deepseek-v3.2) · input +67%, output +67% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) · input $0.54 to $0.90 per M (+67%) · output $0.96 to $1.60 (+67%) · listed discount 40% to 0% · input 3.5x the cheapest (SiliconFlow), output 4.2x the cheapest (DeepInfra)</li><li>Price range widened · input $0.259 to $0.90 per M (3.5x, above 3x) · output $0.38 to $1.60 (4.2x, above 3x)</li></ul><p>Between the snapshots of Nov 27, 07:12 UTC and Nov 27, 08:38 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v3.2">DeepSeek: DeepSeek V3.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v3.2</link>
+<guid isPermaLink="false">deepseek/deepseek-v3.2-2026-11-27T08:38:16Z</guid>
+<pubDate>Fri, 27 Nov 2026 08:38:16 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: OpenInference on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash) · input -13%]]></title>
+<description><![CDATA[<ul><li>OpenInference (open-inference/fp4) · input $0.069 to $0.06 per M (-13%) · input 1.2x the cheapest (Wafer), output 1.8x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 07:12 UTC and Nov 27, 08:38 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-27T08:38:16Z</guid>
+<pubDate>Fri, 27 Nov 2026 08:38:16 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/bf16) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -12%, output -12% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.088 per M (-12%) · output $0.36 to $0.316 (-12%) · input 2x, output 1.9x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.045 per M (-10%) · output $0.18 to $0.163 (-9%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 27, 07:12 UTC and Nov 27, 08:38 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T08:38:16Z</guid>
+<pubDate>Fri, 27 Nov 2026 08:38:16 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: SiliconFlow on Qwen3.5-122B-A10B (qwen/qwen3.5-122b-a10b)]]></title>
+<description><![CDATA[<ul><li>SiliconFlow (siliconflow/fp8) left; only Alibaba remains</li></ul><p>Between the snapshots of Nov 27, 07:12 UTC and Nov 27, 08:38 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-122b-a10b">Qwen: Qwen3.5-122B-A10B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-122b-a10b</link>
+<guid isPermaLink="false">qwen/qwen3.5-122b-a10b-2026-11-27T08:38:16Z</guid>
+<pubDate>Fri, 27 Nov 2026 08:38:16 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: SiliconFlow on Qwen3.8 2.4T A95B (qwen/qwen3.8-2.4t-a95b) · cheapest no longer tied]]></title>
+<description><![CDATA[<ul><li>SiliconFlow (siliconflow/fp8) left</li><li>Cheapest endpoint: Alibaba, Fireworks, Venice alone (SiliconFlow no longer ties)</li></ul><p>Between the snapshots of Nov 27, 07:12 UTC and Nov 27, 08:38 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.8-2.4t-a95b">Qwen: Qwen3.8 2.4T A95B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.8-2.4t-a95b</link>
+<guid isPermaLink="false">qwen/qwen3.8-2.4t-a95b-2026-11-27T08:38:16Z</guid>
+<pubDate>Fri, 27 Nov 2026 08:38:16 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Featherless on MiMo-V2.6-Flash-MOPD (xiaomi/mimo-v2.6-flash-mopd) · input -30%, output -30%]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) · input $0.50 to $0.35 per M (-30%) · output $1.00 to $0.70 (-30%) · listed discount 0% to 30%</li></ul><p>Between the snapshots of Nov 27, 07:12 UTC and Nov 27, 08:38 UTC.</p><p><a href="https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd">Xiaomi: MiMo-V2.6-Flash-MOPD on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/xiaomi/mimo-v2.6-flash-mopd</link>
+<guid isPermaLink="false">xiaomi/mimo-v2.6-flash-mopd-2026-11-27T08:38:16Z</guid>
+<pubDate>Fri, 27 Nov 2026 08:38:16 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: DeepSeek on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input +100%, output +100% · +1 more change]]></title>
+<description><![CDATA[<ul><li>DeepSeek · input $0.66 to $1.32 per M (+100%) · output $1.98 to $3.96 (+100%) · input 13x the cheapest (Relace), output 2x the cheapest (StreamLake)</li><li>Cheapest output: StreamLake alone (DeepSeek no longer ties)</li></ul><p>Between the snapshots of Nov 27, 06:01 UTC and Nov 27, 07:12 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T07:12:44Z</guid>
+<pubDate>Fri, 27 Nov 2026 07:12:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: OpenInference on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash) · input +33%, output -20%]]></title>
+<description><![CDATA[<ul><li>OpenInference (open-inference/fp4) · input $0.052 to $0.069 per M (+33%) · output $0.75 to $0.60 (-20%) · input 1.4x the cheapest (Wafer), output 1.8x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 06:01 UTC and Nov 27, 07:12 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-27T07:12:44Z</guid>
+<pubDate>Fri, 27 Nov 2026 07:12:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Pareto Inference on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +100%, output +100% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Pareto Inference (pareto-inference/fp8) · input $0.075 to $0.15 per M (+100%) · output $0.30 to $0.60 (+100%) · input 4.2x the cheapest (Wafer), output 6x the cheapest (2 Sail Research endpoints)</li><li>DeepSeek · input $0.15 to $0.30 per M (+100%) · output $0.60 to $1.20 (+100%) · input 8.3x the cheapest (Wafer), output 12x the cheapest (2 Sail Research endpoints)</li><li>OpenInference (open-inference/fp4) · input $0.047 to $0.048 per M (+2%) · output $0.75 to $0.60 (-20%) · input 1.3x the cheapest (Wafer), output 6x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 06:01 UTC and Nov 27, 07:12 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T07:12:44Z</guid>
+<pubDate>Fri, 27 Nov 2026 07:12:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: NextBit on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +18%, output +18%]]></title>
+<description><![CDATA[<ul><li>NextBit (nextbit/fp4) · input $0.0765 to $0.09 per M (+18%) · output $0.255 to $0.30 (+18%) · listed discount 15% to 0% · input 1.8x the cheapest (Darkbloom, PrimeIntellect), output 1.7x the cheapest (PrimeIntellect)</li></ul><p>Between the snapshots of Nov 27, 06:01 UTC and Nov 27, 07:12 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-27T07:12:44Z</guid>
+<pubDate>Fri, 27 Nov 2026 07:12:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Morph on GLM 5.3 Flash (z-ai/glm-5.3-flash) · input -23%, output -23% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Morph (morph/fp8) · input $0.132 to $0.102 per M (-23%) · output $0.381 to $0.295 (-23%) · input 2.9x, output 3.6x the cheapest (Relace)</li><li>OpenInference (open-inference/fp4) · input $0.05 to $0.04 per M (-20%) · output $0.50 to $0.40 (-20%) · input 1.1x, output 4.9x the cheapest (Relace)</li></ul><p>Between the snapshots of Nov 27, 06:01 UTC and Nov 27, 07:12 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3-flash">Z.ai: GLM 5.3 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3-flash</link>
+<guid isPermaLink="false">z-ai/glm-5.3-flash-2026-11-27T07:12:44Z</guid>
+<pubDate>Fri, 27 Nov 2026 07:12:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: PrimeIntellect (primeintellect/fast) on Qwen3.5-9B (qwen/qwen3.5-9b) · input 2.1x the cheapest (Darkbloom, DeepInfra), output 2.1x the cheapest (DeepInfra) · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/fast) joined at $0.17 / $0.25 per M, input 2.1x the cheapest (Darkbloom, DeepInfra), output 2.1x the cheapest (DeepInfra)</li><li>PrimeIntellect (primeintellect/bf16) · input $0.071 to $0.085 per M (+20%) · output $0.104 to $0.125 (+20%) · input 1.1x the cheapest (Darkbloom, DeepInfra), output 4% above the cheapest (DeepInfra)</li><li>Cheapest input: now Darkbloom and DeepInfra, tied, at $0.08 per M · was PrimeIntellect, now $0.085. Cheapest output: now DeepInfra at $0.12 per M · was PrimeIntellect, now $0.125</li></ul><p>Between the snapshots of Nov 27, 05:03 UTC and Nov 27, 06:01 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T06:01:32Z</guid>
+<pubDate>Fri, 27 Nov 2026 06:01:32 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: DeepSeek on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input -50%, output -50% · +1 more change]]></title>
+<description><![CDATA[<ul><li>DeepSeek · input $1.32 to $0.66 per M (-50%) · output $3.96 to $1.98 (-50%) · cheapest output; input 6.6x the cheapest (Relace)</li><li>Cheapest output: DeepSeek now ties StreamLake</li></ul><p>Between the snapshots of Nov 27, 03:57 UTC and Nov 27, 05:03 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T05:03:12Z</guid>
+<pubDate>Fri, 27 Nov 2026 05:03:12 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider briefly unlisted: Krea on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · came back · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Krea (krea/fp8) was briefly unlisted and came back</li><li>Pareto Inference (pareto-inference/fp8) · input $0.15 to $0.075 per M (-50%) · output $0.60 to $0.30 (-50%) · input 2.1x the cheapest (Wafer), output 3x the cheapest (2 Sail Research endpoints)</li><li>DeepSeek · input $0.30 to $0.15 per M (-50%) · output $1.20 to $0.60 (-50%) · input 4.2x the cheapest (Wafer), output 6x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 03:57 UTC and Nov 27, 05:03 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T05:03:12Z</guid>
+<pubDate>Fri, 27 Nov 2026 05:03:12 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Featherless on MiniMax M3.1 Flash (minimax/minimax-m3.1-flash) · input and output 2x the cheapest (Inferact vLLM)]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) joined at $0.15 / $0.60 per M, input and output 2x the cheapest (Inferact vLLM)</li></ul><p>Between the snapshots of Nov 27, 03:57 UTC and Nov 27, 05:03 UTC.</p><p><a href="https://openrouter.ai/minimax/minimax-m3.1-flash">MiniMax: MiniMax M3.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/minimax/minimax-m3.1-flash</link>
+<guid isPermaLink="false">minimax/minimax-m3.1-flash-2026-11-27T05:03:12Z</guid>
+<pubDate>Fri, 27 Nov 2026 05:03:12 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Io Net on Kimi K3.1 Pro (moonshotai/kimi-k3.1-pro) · input -21% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Io Net (io-net/fp4) · input $2.80 to $2.20 per M (-21%) · input 9.2x the cheapest (Relace), output 1.9x the cheapest (Decart)</li><li>Morph (morph/fp8) · input $1.38 to $1.31 per M (-5%) · output $9.00 to $8.55 (-5%) · input 5.4x the cheapest (Relace), output 1.4x the cheapest (Decart)</li></ul><p>Between the snapshots of Nov 27, 03:57 UTC and Nov 27, 05:03 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k3.1-pro">MoonshotAI: Kimi K3.1 Pro on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k3.1-pro</link>
+<guid isPermaLink="false">moonshotai/kimi-k3.1-pro-2026-11-27T05:03:12Z</guid>
+<pubDate>Fri, 27 Nov 2026 05:03:12 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect on Qwen3.5-9B (qwen/qwen3.5-9b) · input -16%, output -17% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.085 to $0.071 per M (-16%) · output $0.125 to $0.104 (-17%) · cheapest on input and output</li><li>Cheapest input: now PrimeIntellect at $0.071 per M · was Darkbloom, DeepInfra, now $0.08. Cheapest output: now PrimeIntellect at $0.104 per M · was DeepInfra, now $0.12</li></ul><p>Between the snapshots of Nov 27, 03:57 UTC and Nov 27, 05:03 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T05:03:12Z</guid>
+<pubDate>Fri, 27 Nov 2026 05:03:12 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Io Net on Inkling 2 Mini (thinkingmachines/inkling-2-mini) · input -33%, output -30%]]></title>
+<description><![CDATA[<ul><li>Io Net (io-net/nvfp4) · input $0.12 to $0.08 per M (-33%) · output $0.50 to $0.35 (-30%) · input 3x, output 3.3x the cheapest (Darkbloom)</li></ul><p>Between the snapshots of Nov 27, 03:57 UTC and Nov 27, 05:03 UTC.</p><p><a href="https://openrouter.ai/thinkingmachines/inkling-2-mini">Thinking Machines: Inkling 2 Mini on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/thinkingmachines/inkling-2-mini</link>
+<guid isPermaLink="false">thinkingmachines/inkling-2-mini-2026-11-27T05:03:12Z</guid>
+<pubDate>Fri, 27 Nov 2026 05:03:12 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price range narrowed: DeepSeek V3.2 (deepseek/deepseek-v3.2) · input and output price range back under 3x · +1 more change]]></title>
+<description><![CDATA[<ul><li>Price range narrowed · input back under 3x (2.1x) · output back under 3x (2.5x)</li><li>Featherless (featherless/fp8) · input $0.90 to $0.54 per M (-40%) · output $1.60 to $0.96 (-40%) · listed discount 0% to 40% · input 2.1x the cheapest (SiliconFlow), output 2.5x the cheapest (DeepInfra)</li></ul><p>Between the snapshots of Nov 27, 02:53 UTC and Nov 27, 03:57 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v3.2">DeepSeek: DeepSeek V3.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v3.2</link>
+<guid isPermaLink="false">deepseek/deepseek-v3.2-2026-11-27T03:57:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 03:57:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: SiliconFlow on DeepSeek V4 Flash Vision Exp (deepseek/deepseek-v4-flash-vision-exp)]]></title>
+<description><![CDATA[<ul><li>SiliconFlow (siliconflow/fp8) left</li></ul><p>Between the snapshots of Nov 27, 02:53 UTC and Nov 27, 03:57 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp">DeepSeek: DeepSeek V4 Flash Vision Exp on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-vision-exp</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-vision-exp-2026-11-27T03:57:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 03:57:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Ant Digital on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017)]]></title>
+<description><![CDATA[<ul><li>Ant Digital (antdigital/fp8) left</li></ul><p>Between the snapshots of Nov 27, 02:53 UTC and Nov 27, 03:57 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T03:57:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 03:57:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Featherless on MiMo-V2.6-Flash (xiaomi/mimo-v2.6-flash) · input +67%, output +67%]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) · input $0.15 to $0.25 per M (+67%) · output $0.48 to $0.80 (+67%) · listed discount 40% to 0% · input 2.5x the cheapest (Darkbloom), output 2.9x the cheapest (Cohere, Darkbloom, DeepInfra, Makora, Venice, Xiaomi)</li></ul><p>Between the snapshots of Nov 27, 02:53 UTC and Nov 27, 03:57 UTC.</p><p><a href="https://openrouter.ai/xiaomi/mimo-v2.6-flash">Xiaomi: MiMo-V2.6-Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/xiaomi/mimo-v2.6-flash</link>
+<guid isPermaLink="false">xiaomi/mimo-v2.6-flash-2026-11-27T03:57:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 03:57:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Relace on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input -60% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.25 to $0.0999 per M (-60%) · cheapest input; output 2.5x the cheapest (StreamLake)</li><li>Cheapest input: now Relace at $0.0999 per M · was Wafer, now $0.111</li></ul><p>Between the snapshots of Nov 27, 01:54 UTC and Nov 27, 02:53 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T02:53:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 02:53:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Krea on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input 8.1x the cheapest (Wafer), output 12x the cheapest (2 Sail Research endpoints)]]></title>
+<description><![CDATA[<ul><li>Krea (krea/fp8) joined at $0.29 / $1.16 per M, input 8.1x the cheapest (Wafer), output 12x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 01:54 UTC and Nov 27, 02:53 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T02:53:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 02:53:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Ambient on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input -50%, output -23% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Ambient (ambient/fp8) · input $0.10 to $0.05 per M (-50%) · output $0.90 to $0.69 (-23%) · cheapest on input and output</li><li>Cheapest input: Ambient now ties Darkbloom. Cheapest output: now Ambient at $0.69 per M · was Darkbloom, now $0.70</li></ul><p>Between the snapshots of Nov 27, 01:54 UTC and Nov 27, 02:53 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-27T02:53:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 02:53:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Krea on GLM 5.3 (z-ai/glm-5.3) · input 12x the cheapest (Wafer), output 1.9x the cheapest (2 Wafer endpoints) · +1 more change]]></title>
+<description><![CDATA[<ul><li>Krea (krea/fp4) joined at $0.83 / $2.62 per M, input 12x the cheapest (Wafer), output 1.9x the cheapest (2 Wafer endpoints)</li><li>Morph (morph/fp8) · input $0.949 to $1.09 per M (+15%) · output $4.43 to $5.10 (+15%) · input 16x the cheapest (Wafer), output 3.6x the cheapest (2 Wafer endpoints)</li></ul><p>Between the snapshots of Nov 27, 01:54 UTC and Nov 27, 02:53 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.3">Z.ai: GLM 5.3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.3</link>
+<guid isPermaLink="false">z-ai/glm-5.3-2026-11-27T02:53:53Z</guid>
+<pubDate>Fri, 27 Nov 2026 02:53:53 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: DeepSeek on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input +100%, output +100% · +1 more change]]></title>
+<description><![CDATA[<ul><li>DeepSeek · input $0.66 to $1.32 per M (+100%) · output $1.98 to $3.96 (+100%) · input 12x the cheapest (Wafer), output 2x the cheapest (StreamLake)</li><li>Cheapest output: StreamLake alone (DeepSeek no longer ties)</li></ul><p>Between the snapshots of Nov 27, 00:26 UTC and Nov 27, 01:54 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T01:54:14Z</guid>
+<pubDate>Fri, 27 Nov 2026 01:54:14 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Pareto Inference on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +100%, output +100% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Pareto Inference (pareto-inference/fp8) · input $0.075 to $0.15 per M (+100%) · output $0.30 to $0.60 (+100%) · input 4.2x the cheapest (Wafer), output 6x the cheapest (2 Sail Research endpoints)</li><li>DeepSeek · input $0.15 to $0.30 per M (+100%) · output $0.60 to $1.20 (+100%) · input 8.3x the cheapest (Wafer), output 12x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 27, 00:26 UTC and Nov 27, 01:54 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T01:54:14Z</guid>
+<pubDate>Fri, 27 Nov 2026 01:54:14 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect on Qwen3.5-9B (qwen/qwen3.5-9b) · input +73%, output +74% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/bf16) · input $0.049 to $0.085 per M (+73%) · output $0.072 to $0.125 (+74%) · input 1.1x the cheapest (Darkbloom, DeepInfra), output 4% above the cheapest (DeepInfra)</li><li>Price range narrowed · input back under 3x (2.1x) · output back under 3x (2.1x)</li><li>Cheapest input: now Darkbloom and DeepInfra, tied, at $0.08 per M · was PrimeIntellect, now $0.085. Cheapest output: now DeepInfra at $0.12 per M · was PrimeIntellect, now $0.125</li></ul><p>Between the snapshots of Nov 27, 00:26 UTC and Nov 27, 01:54 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T01:54:14Z</guid>
+<pubDate>Fri, 27 Nov 2026 01:54:14 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input +331%, output +331% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0325 to $0.14 per M (+331%) · output $0.065 to $0.28 (+331%) · listed discount 77% to 0% · input 2.8x the cheapest (Relace), output 2x the cheapest (Fireworks)</li><li>StreamLake (streamlake/fp8) · input $0.07 to $0.0826 per M (+18%) · output $0.14 to $0.165 (+18%) · listed discount 50% to 41% · input 1.7x the cheapest (Relace), output 1.2x the cheapest (Fireworks)</li><li>Relace (relace/fp4) · input $0.0308 to $0.05 per M (+62%) · cheapest input; output 3.2x the cheapest (Fireworks)</li><li>Cheapest output: now Fireworks at $0.14 per M · was Baidu, now $0.28</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · input +871%, output +871% · +4 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0453 to $0.44 per M (+871%) · output $0.136 to $1.32 (+871%) · listed discount 90% to 0% · input 9.4x the cheapest (Wafer), output 9.4x the cheapest (Relace)</li><li>Alibaba · input $0.176 to $0.352 per M (+100%) · output $0.528 to $1.06 (+100%) · input 7.5x the cheapest (Wafer), output 7.5x the cheapest (Relace)</li><li>Alibaba (alibaba/us-east-1) · input $0.187 to $0.374 per M (+100%) · output $0.561 to $1.12 (+100%) · input 8x the cheapest (Wafer), output 8x the cheapest (Relace)</li><li>Wafer (wafer/us) · input $0.0456 to $0.047 per M (+3%) · cheapest input; output 2.1x the cheapest (Relace)</li><li>Cheapest input: now Wafer at $0.047 per M · was Baidu, now $0.44. Cheapest output: now Relace at $0.14 per M · was Baidu, now $1.32</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input +164%, output +164% · +4 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.641 to $1.69 per M (+164%) · output $1.28 to $3.38 (+164%) · listed discount 62% to 0% · input 1.9x, output 2.2x the cheapest (Relace)</li><li>StreamLake (streamlake/fp8) · input $0.651 to $0.898 per M (+38%) · output $1.30 to $1.80 (+38%) · listed discount 63% to 48% · input 1% above the cheapest (Relace), output 1.2x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.631 to $0.888 per M (+41%) · output $1.59 to $1.50 (-5%) · cheapest on input and output</li><li>Price range narrowed · input back under 3x (2.2x) · output back under 3x (2.6x)</li><li>Cheapest output: now Relace at $1.50 per M · was Baidu, now $3.38</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on DeepSeek V4 Pro 0813 (deepseek/deepseek-v4-pro-0813) · input +429%, output +429% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.249 to $1.32 per M (+429%) · output $0.748 to $3.96 (+429%) · listed discount 81% to 0% · input 12x the cheapest (Wafer), output 2x the cheapest (DeepSeek, StreamLake)</li><li>Alibaba (alibaba/us-east-1) · input $0.66 to $1.32 per M (+100%) · output $1.98 to $3.96 (+100%) · input 12x the cheapest (Wafer), output 2x the cheapest (DeepSeek, StreamLake)</li><li>Alibaba · input $0.581 to $1.12 per M (+93%) · output $1.74 to $3.37 (+93%) · input 10x the cheapest (Wafer), output 1.7x the cheapest (DeepSeek, StreamLake)</li><li>Cheapest output: now DeepSeek and StreamLake, tied, at $1.98 per M · was Baidu, now $3.96</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro-0813">DeepSeek: DeepSeek V4 Pro 0813 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro-0813</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-0813-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash) · input +492%, output +492% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0507 to $0.30 per M (+492%) · output $0.203 to $1.20 (+492%) · listed discount 83% to 0% · input 5.9x the cheapest (Wafer), output 3.6x the cheapest (DeepInfra)</li><li>Alibaba · input $0.09 to $0.18 per M (+100%) · output $0.36 to $0.72 (+100%) · input 3.5x the cheapest (Wafer), output 2.1x the cheapest (DeepInfra)</li><li>Cheapest input: now Wafer at $0.051 per M · was Baidu, now $0.30. Cheapest output: now DeepInfra at $0.336 per M · was Baidu, now $1.20</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash">DeepSeek: DeepSeek V4.1 Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +187%, output +187% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0977 to $0.28 per M (+187%) · output $0.394 to $1.13 (+187%) · listed discount 65% to 0% · input 7.8x the cheapest (Wafer), output 11x the cheapest (2 Sail Research endpoints)</li><li>Alibaba · input $0.09 to $0.18 per M (+100%) · output $0.36 to $0.72 (+100%) · input 5x the cheapest (Wafer), output 7.2x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price range widened: Qwen3.5-9B (qwen/qwen3.5-9b) · input and output price range above 3x as the cheapest fell · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Price range widened · input $0.049 to $0.17 per M (3.5x, above 3x, as the cheapest fell) · output $0.072 to $0.25 (3.5x, above 3x, as the cheapest fell)</li><li>PrimeIntellect (primeintellect/bf16) · input $0.17 to $0.049 per M (-71%) · output $0.25 to $0.072 (-71%) · cheapest on input and output</li><li>Cheapest input: now PrimeIntellect at $0.049 per M · was Darkbloom, DeepInfra, now $0.08. Cheapest output: now PrimeIntellect at $0.072 per M · was DeepInfra, now $0.12</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.5-9b">Qwen: Qwen3.5-9B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.5-9b</link>
+<guid isPermaLink="false">qwen/qwen3.5-9b-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: PrimeIntellect (primeintellect/fast) on Qwen3.8 27B (qwen/qwen3.8-27b) · input 13x the cheapest (Darkbloom), output 3x the cheapest (StreamLake) · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/fast) joined at $0.45 / $3.20 per M, input 13x the cheapest (Darkbloom), output 3x the cheapest (StreamLake)</li><li>PrimeIntellect (primeintellect/flex) joined at $0.06 / $1.95 per M, input 1.7x the cheapest (Darkbloom), output 1.9x the cheapest (StreamLake)</li><li>PrimeIntellect (primeintellect/fp8) · input $0.45 to $0.24 per M (-47%) · output $3.20 to $2.20 (-31%) · input 6.9x the cheapest (Darkbloom), output 2.1x the cheapest (StreamLake)</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.8-27b">Qwen: Qwen3.8 27B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.8-27b</link>
+<guid isPermaLink="false">qwen/qwen3.8-27b-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Tencent on Hy3 (tencent/hy3) · input +60%, output +60%]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.0825 to $0.132 per M (+60%) · output $0.33 to $0.528 (+60%)</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/tencent/hy3">Tencent: Hy3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy3</link>
+<guid isPermaLink="false">tencent/hy3-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Tencent on Hy4 preview (tencent/hy4-preview) · input +11%, output +11% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.751 to $0.834 per M (+11%) · output $2.25 to $2.50 (+11%) · cheapest on input and output</li><li>Cheapest endpoint: DeepInfra, SiliconFlow now tie Tencent</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/tencent/hy4-preview">Tencent: Hy4 preview on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy4-preview</link>
+<guid isPermaLink="false">tencent/hy4-preview-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Baidu on GLM 5.1 (z-ai/glm-5.1) · input +56%, output +56% · cheapest now Chutes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.899 to $1.40 per M (+56%) · output $2.82 to $4.40 (+56%) · listed discount 36% to 0% · input 1.6x, output 1.5x the cheapest (Chutes)</li><li>Cheapest endpoint: now Chutes at $0.90 in / $2.90 out per M · was Baidu, now $1.40 in / $4.40 out</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.1">Z.ai: GLM 5.1 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.1</link>
+<guid isPermaLink="false">z-ai/glm-5.1-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · New provider: Featherless on GLM 5.2 (z-ai/glm-5.2) · input 203x the cheapest (Relace), output 3.1x the cheapest (DeepInfra) · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Featherless joined at $1.40 / $4.40 per M, input 203x the cheapest (Relace), output 3.1x the cheapest (DeepInfra)</li><li>Baidu (baidu/fp8) · input $0.189 to $1.40 per M (+641%) · output $0.594 to $4.40 (+641%) · listed discount 87% to 0% · input 203x the cheapest (Relace), output 3.1x the cheapest (DeepInfra)</li><li>StreamLake (streamlake/fp8) · input $0.56 to $0.613 per M (+9%) · output $1.76 to $1.93 (+9%) · listed discount 60% to 56% · input 89x the cheapest (Relace), output 1.3x the cheapest (DeepInfra)</li><li>Cheapest output: now DeepInfra at $1.44 per M · was Baidu, now $4.40</li></ul><p>Between the snapshots of Nov 26, 23:27 UTC and Nov 27, 00:26 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-27T00:26:00Z</guid>
+<pubDate>Fri, 27 Nov 2026 00:26:00 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -5%, output -5% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0343 to $0.0325 per M (-5%) · output $0.0686 to $0.065 (-5%) · listed discount 76% to 77% · cheapest output; input 1.1x the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.0344 to $0.0308 per M (-10%) · cheapest input; output 6.9x the cheapest (Baidu)</li><li>Cheapest input: now Relace at $0.0308 per M · was Baidu, now $0.0325</li></ul><p>Between the snapshots of Nov 26, 22:28 UTC and Nov 26, 23:27 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-26T23:27:15Z</guid>
+<pubDate>Thu, 26 Nov 2026 23:27:15 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -2%, output +1% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.646 to $0.631 per M (-2%) · output $1.57 to $1.59 (+1%) · cheapest input; output 1.2x the cheapest (Baidu)</li><li>Price range widened · output $1.28 to $3.90 per M (3x, above 3x, as the cheapest fell)</li><li>Baidu (baidu/fp8) · input $0.652 to $0.641 per M (-2%) · output $1.30 to $1.28 (-2%) · listed discount 61% to 62% · cheapest output; input 2% above the cheapest (Relace)</li><li>StreamLake (streamlake/fp8) · input $0.661 to $0.651 per M (-2%) · output $1.32 to $1.30 (-2%) · listed discount 62% to 63% · input 3% above the cheapest (Relace), output 2% above the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 26, 22:28 UTC and Nov 26, 23:27 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-26T23:27:15Z</guid>
+<pubDate>Thu, 26 Nov 2026 23:27:15 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Tenstorrent on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +2%]]></title>
+<description><![CDATA[<ul><li>Tenstorrent (tenstorrent/fp8) · input $0.053 to $0.054 per M (+2%) · input 1.5x the cheapest (Wafer), output 3x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 26, 22:28 UTC and Nov 26, 23:27 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-26T23:27:15Z</guid>
+<pubDate>Thu, 26 Nov 2026 23:27:15 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Ambient on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input +122%, output +45% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Ambient (ambient/fp8) · input $0.045 to $0.10 per M (+122%) · output $0.62 to $0.90 (+45%) · input 2x, output 1.3x the cheapest (Darkbloom)</li><li>Cheapest endpoint: now Darkbloom at $0.05 in / $0.70 out per M · was Ambient, now $0.10 in / $0.90 out</li></ul><p>Between the snapshots of Nov 26, 22:28 UTC and Nov 26, 23:27 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-26T23:27:15Z</guid>
+<pubDate>Thu, 26 Nov 2026 23:27:15 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Featherless on MiMo-V2.6-Flash (xiaomi/mimo-v2.6-flash) · input -40%, output -40%]]></title>
+<description><![CDATA[<ul><li>Featherless (featherless/fp8) · input $0.25 to $0.15 per M (-40%) · output $0.80 to $0.48 (-40%) · listed discount 0% to 40% · input 1.5x the cheapest (Darkbloom), output 1.7x the cheapest (Cohere, Darkbloom, DeepInfra, Makora, Venice, Xiaomi)</li></ul><p>Between the snapshots of Nov 26, 22:28 UTC and Nov 26, 23:27 UTC.</p><p><a href="https://openrouter.ai/xiaomi/mimo-v2.6-flash">Xiaomi: MiMo-V2.6-Flash on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/xiaomi/mimo-v2.6-flash</link>
+<guid isPermaLink="false">xiaomi/mimo-v2.6-flash-2026-11-26T23:27:15Z</guid>
+<pubDate>Thu, 26 Nov 2026 23:27:15 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price range widened: DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input price range above 3x as the cheapest fell · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Price range widened · input $0.646 to $1.95 per M (3x, above 3x, as the cheapest fell)</li><li>StreamLake (streamlake/fp8) · input $0.723 to $0.661 per M (-9%) · output $1.45 to $1.32 (-9%) · listed discount 58% to 62% · input 2% above the cheapest (Relace), output 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.676 to $0.652 per M (-4%) · output $1.35 to $1.30 (-4%) · listed discount 60% to 61% · cheapest output; input 1% above the cheapest (Relace)</li><li>Relace (relace/fp4) · input $0.673 to $0.646 per M (-4%) · cheapest input; output 1.2x the cheapest (Baidu)</li></ul><p>Between the snapshots of Nov 26, 21:27 UTC and Nov 26, 22:28 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-26T22:28:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 22:28:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Darkbloom on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +5%, output +5% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Darkbloom (darkbloom/int4) · input $0.0475 to $0.05 per M (+5%) · output $0.18 to $0.19 (+5%) · cheapest input; output 1.1x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.08 per M (-20%) · output $0.36 to $0.288 (-20%) · input 1.6x the cheapest (Darkbloom, PrimeIntellect), output 1.6x the cheapest (PrimeIntellect)</li><li>Cheapest input: PrimeIntellect now ties Darkbloom</li></ul><p>Between the snapshots of Nov 26, 21:27 UTC and Nov 26, 22:28 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-26T22:28:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 22:28:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Darkbloom on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input +11%, output +11% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Darkbloom (darkbloom/fp4) · input $0.045 to $0.05 per M (+11%) · output $0.63 to $0.70 (+11%) · input and output 1.1x the cheapest (Ambient)</li><li>Cheapest input: Ambient alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 26, 21:27 UTC and Nov 26, 22:28 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-26T22:28:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 22:28:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -15%, output -15% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0448 to $0.0382 per M (-15%) · output $0.0896 to $0.0764 (-15%) · listed discount 68% to 73% · cheapest on input and output</li><li>Relace (relace/fp4) · input $0.0426 to $0.0383 per M (-10%) · input less than 1% above the cheapest (Baidu), output 5.9x the cheapest (Baidu)</li><li>Cheapest input: now Baidu at $0.0382 per M · was Relace, now $0.0383</li></ul><p>Between the snapshots of Nov 26, 20:35 UTC and Nov 26, 21:27 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-26T21:27:18Z</guid>
+<pubDate>Thu, 26 Nov 2026 21:27:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Tenstorrent (tenstorrent/fp8) on Qwen3.8 27B (qwen/qwen3.8-27b) · input -13%, output -13% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Tenstorrent (tenstorrent/fp8) · input $0.15 to $0.13 per M (-13%) · output $1.60 to $1.40 (-13%) · input 3.7x the cheapest (Darkbloom), output 1.3x the cheapest (StreamLake)</li><li>PrimeIntellect (primeintellect/fp8) · input $0.439 to $0.418 per M (-5%) · output $3.12 to $2.97 (-5%) · input 12x the cheapest (Darkbloom), output 2.8x the cheapest (StreamLake)</li></ul><p>Between the snapshots of Nov 26, 20:35 UTC and Nov 26, 21:27 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.8-27b">Qwen: Qwen3.8 27B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.8-27b</link>
+<guid isPermaLink="false">qwen/qwen3.8-27b-2026-11-26T21:27:18Z</guid>
+<pubDate>Thu, 26 Nov 2026 21:27:18 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Tenstorrent on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +6%]]></title>
+<description><![CDATA[<ul><li>Tenstorrent (tenstorrent/fp8) · input $0.05 to $0.053 per M (+6%) · input 1.5x the cheapest (Wafer), output 3x the cheapest (2 Sail Research endpoints)</li></ul><p>Between the snapshots of Nov 26, 19:40 UTC and Nov 26, 20:35 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-26T20:35:44Z</guid>
+<pubDate>Thu, 26 Nov 2026 20:35:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Darkbloom on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input -10%, output -10% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Darkbloom (darkbloom/fp4) · input $0.05 to $0.045 per M (-10%) · output $0.70 to $0.63 (-10%) · cheapest input; output 2% above the cheapest (Ambient)</li><li>Ambient (ambient/fp8) · output $0.65 to $0.62 per M (-5%) · cheapest on input and output</li><li>Cheapest input: Darkbloom now ties Ambient</li></ul><p>Between the snapshots of Nov 26, 19:40 UTC and Nov 26, 20:35 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-26T20:35:44Z</guid>
+<pubDate>Thu, 26 Nov 2026 20:35:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.2 (z-ai/glm-5.2) · input -86%, output -86% · cheapest output now Baidu]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $1.40 to $0.189 per M (-86%) · output $4.40 to $0.594 (-86%) · listed discount 0% to 87% · cheapest output; input 27x the cheapest (Relace)</li><li>Cheapest output: now Baidu at $0.594 per M · was DeepInfra, now $1.44</li></ul><p>Between the snapshots of Nov 26, 19:40 UTC and Nov 26, 20:35 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.2">Z.ai: GLM 5.2 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.2</link>
+<guid isPermaLink="false">z-ai/glm-5.2-2026-11-26T20:35:44Z</guid>
+<pubDate>Thu, 26 Nov 2026 20:35:44 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -4%, output +1% · +3 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.757 to $0.725 per M (-4%) · output $1.50 to $1.52 (+1%) · cheapest input; output 3% above the cheapest (Baidu)</li><li>StreamLake (streamlake/fp8) · input $0.777 to $0.744 per M (-4%) · output $1.55 to $1.49 (-4%) · listed discount 55% to 57% · input 3% above the cheapest (Relace), output 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.757 to $0.735 per M (-3%) · output $1.51 to $1.47 (-3%) · listed discount 55% to 56% · cheapest output; input 1% above the cheapest (Relace)</li><li>Cheapest input: now Relace at $0.725 per M · was Baidu, now $0.735. Cheapest output: now Baidu at $1.47 per M · was Relace, now $1.52</li></ul><p>Between the snapshots of Nov 26, 18:37 UTC and Nov 26, 19:40 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-26T19:40:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 19:40:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: NextBit on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -15%, output -15% · +1 more change]]></title>
+<description><![CDATA[<ul><li>NextBit (nextbit/fp4) · input $0.09 to $0.0765 per M (-15%) · output $0.30 to $0.255 (-15%) · listed discount 0% to 15% · input 1.6x the cheapest (Darkbloom), output 1.4x the cheapest (PrimeIntellect)</li><li>PrimeIntellect (primeintellect/bf16) · input $0.10 to $0.098 per M (-2%) · output $0.36 to $0.351 (-3%) · input 2.1x the cheapest (Darkbloom), output 1.9x the cheapest (PrimeIntellect)</li></ul><p>Between the snapshots of Nov 26, 18:37 UTC and Nov 26, 19:40 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-26T19:40:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 19:40:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Inceptron on Kimi K2.6 (moonshotai/kimi-k2.6) · input -32%, output -25%]]></title>
+<description><![CDATA[<ul><li>Inceptron (inceptron/int4) · input $0.827 to $0.566 per M (-32%) · output $4.56 to $3.42 (-25%) · input 1.4x, output 1.9x the cheapest (Chutes)</li></ul><p>Between the snapshots of Nov 26, 18:37 UTC and Nov 26, 19:40 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k2.6">MoonshotAI: Kimi K2.6 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k2.6</link>
+<guid isPermaLink="false">moonshotai/kimi-k2.6-2026-11-26T19:40:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 19:40:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[⚖️ Decision model · Model listed: LingDT Decision Fast 1.0 (free) (antdigital/lingdt-decision-fast-1.0:free) · 1 endpoint]]></title>
+<description><![CDATA[<ul><li>Listed with 1 endpoint</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/antdigital/lingdt-decision-fast-1.0:free">Ant Digital: LingDT Decision Fast 1.0 (free) on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/antdigital/lingdt-decision-fast-1.0:free</link>
+<guid isPermaLink="false">antdigital/lingdt-decision-fast-1.0:free-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Relace on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -5% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.05 to $0.0474 per M (-5%) · cheapest input; output 4.5x the cheapest (Baidu)</li><li>Cheapest input: now Relace at $0.0474 per M · was Baidu, now $0.05</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input +11%, output +10% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.045 to $0.05 per M (+11%) · output $0.163 to $0.18 (+10%) · cheapest output; input 1.1x the cheapest (Darkbloom)</li><li>Darkbloom (darkbloom/int4) · input $0.05 to $0.0475 per M (-5%) · output $0.19 to $0.18 (-5%) · cheapest input; output less than 1% above the cheapest (PrimeIntellect)</li><li>Cheapest input: now Darkbloom at $0.0475 per M · was PrimeIntellect, now $0.05</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Inceptron on Kimi K2.6 (moonshotai/kimi-k2.6) · input +46%, output +33%]]></title>
+<description><![CDATA[<ul><li>Inceptron (inceptron/int4) · input $0.566 to $0.827 per M (+46%) · output $3.42 to $4.56 (+33%) · input 2.1x, output 2.5x the cheapest (Chutes)</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k2.6">MoonshotAI: Kimi K2.6 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k2.6</link>
+<guid isPermaLink="false">moonshotai/kimi-k2.6-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Darkbloom on gpt-oss-20b (openai/gpt-oss-20b) · input -10%, output -10% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Darkbloom (darkbloom/fp4) · input $0.017 to $0.0153 per M (-10%) · output $0.085 to $0.0765 (-10%) · cheapest on input and output</li><li>PrimeIntellect (primeintellect/fp4) · input $0.20 to $0.194 per M (-3%) · output $0.30 to $0.291 (-3%) · input 13x, output 3.8x the cheapest (Darkbloom)</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/openai/gpt-oss-20b">OpenAI: gpt-oss-20b on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/openai/gpt-oss-20b</link>
+<guid isPermaLink="false">openai/gpt-oss-20b-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price range narrowed: Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · output price range back under 3x · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Price range narrowed · output back under 3x (2.8x)</li><li>Ambient (ambient/fp8) · output $65.00 to $0.65 per M (-99%) · cheapest on input and output</li><li>Cheapest output: now Ambient at $0.65 per M · was Darkbloom, now $0.70</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on GLM 5.1 (z-ai/glm-5.1) · input -36%, output -36% · cheapest now Baidu]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $1.40 to $0.899 per M (-36%) · output $4.40 to $2.82 (-36%) · listed discount 0% to 36% · cheapest on input and output</li><li>Cheapest endpoint: now Baidu at $0.899 in / $2.82 out per M · was Chutes, now $0.90 in / $2.90 out</li></ul><p>Between the snapshots of Nov 26, 17:39 UTC and Nov 26, 18:37 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.1">Z.ai: GLM 5.1 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.1</link>
+<guid isPermaLink="false">z-ai/glm-5.1-2026-11-26T18:37:06Z</guid>
+<pubDate>Thu, 26 Nov 2026 18:37:06 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Relace on DeepSeek V4 Pro 0423 (deepseek/deepseek-v4-pro) · input -1%, output +1% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) · input $0.801 to $0.789 per M (-1%) · output $1.56 to $1.57 (+1%) · cheapest output; input less than 1% above the cheapest (Baidu)</li><li>Baidu (baidu/fp8) · input $0.811 to $0.789 per M (-3%) · output $1.62 to $1.58 (-3%) · listed discount 52% to 53% · cheapest input; output 1% above the cheapest (Relace)</li><li>Cheapest input: now Baidu at $0.789 per M · was Relace, now $0.789</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-pro">DeepSeek: DeepSeek V4 Pro 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-pro</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-pro-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price increase: Particle AI (particle-ai/us/flex) on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017) · input +14%, output +67% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Particle AI (particle-ai/us/flex) · input $0.035 to $0.04 per M (+14%) · output $0.45 to $0.75 (+67%) · input 1.1x the cheapest (Wafer), output 7.5x the cheapest (2 Sail Research endpoints)</li><li>Cheapest input: now Wafer at $0.036 per M · was Particle AI, now $0.04</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model listed: Kimi K2 0905 (moonshotai/kimi-k2-0905) · 1 endpoint]]></title>
+<description><![CDATA[<ul><li>Listed with 1 endpoint</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k2-0905">MoonshotAI: Kimi K2 0905 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k2-0905</link>
+<guid isPermaLink="false">moonshotai/kimi-k2-0905-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price change: Ambient on Qwen3.6 35B A3B (qwen/qwen3.6-35b-a3b) · input -55%, output +7122% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Ambient (ambient/fp8) · input $0.10 to $0.045 per M (-55%) · output $0.90 to $65.00 (+7122%) · cheapest input; output 93x the cheapest (Darkbloom)</li><li>Price range widened · output $0.70 to $65.00 per M (93x, above 3x)</li><li>Cheapest input: now Ambient at $0.045 per M · was Darkbloom, now $0.05</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/qwen/qwen3.6-35b-a3b">Qwen: Qwen3.6 35B A3B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/qwen/qwen3.6-35b-a3b</link>
+<guid isPermaLink="false">qwen/qwen3.6-35b-a3b-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Relace on Inkling 2 Mini (thinkingmachines/inkling-2-mini)]]></title>
+<description><![CDATA[<ul><li>Relace (relace/fp4) left</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/thinkingmachines/inkling-2-mini">Thinking Machines: Inkling 2 Mini on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/thinkingmachines/inkling-2-mini</link>
+<guid isPermaLink="false">thinkingmachines/inkling-2-mini-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Novita on GLM 4.6 (z-ai/glm-4.6)]]></title>
+<description><![CDATA[<ul><li>Novita (novita/bf16) left</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-4.6">Z.ai: GLM 4.6 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-4.6</link>
+<guid isPermaLink="false">z-ai/glm-4.6-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Novita on GLM 5 (z-ai/glm-5)]]></title>
+<description><![CDATA[<ul><li>Novita (novita/fp8) left</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5">Z.ai: GLM 5 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5</link>
+<guid isPermaLink="false">z-ai/glm-5-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Novita on GLM 5.1 (z-ai/glm-5.1)]]></title>
+<description><![CDATA[<ul><li>Novita (novita/fp8) left</li></ul><p>Between the snapshots of Nov 26, 16:47 UTC and Nov 26, 17:39 UTC.</p><p><a href="https://openrouter.ai/z-ai/glm-5.1">Z.ai: GLM 5.1 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/z-ai/glm-5.1</link>
+<guid isPermaLink="false">z-ai/glm-5.1-2026-11-26T17:39:27Z</guid>
+<pubDate>Thu, 26 Nov 2026 17:39:27 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: PrimeIntellect (primeintellect/flex) on Gemma 4 26B A4B (google/gemma-4-26b-a4b-it) · input -10%, output -9% · +1 more change]]></title>
+<description><![CDATA[<ul><li>PrimeIntellect (primeintellect/flex) · input $0.05 to $0.045 per M (-10%) · output $0.18 to $0.163 (-9%) · cheapest on input and output</li><li>Cheapest input: PrimeIntellect alone (Darkbloom no longer ties)</li></ul><p>Between the snapshots of Nov 26, 15:42 UTC and Nov 26, 16:47 UTC.</p><p><a href="https://openrouter.ai/google/gemma-4-26b-a4b-it">Google: Gemma 4 26B A4B on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/google/gemma-4-26b-a4b-it</link>
+<guid isPermaLink="false">google/gemma-4-26b-a4b-it-2026-11-26T16:47:45Z</guid>
+<pubDate>Thu, 26 Nov 2026 16:47:45 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model listed: Kimi K2 0711 (moonshotai/kimi-k2) · 1 endpoint]]></title>
+<description><![CDATA[<ul><li>Listed with 1 endpoint</li></ul><p>Between the snapshots of Nov 26, 15:42 UTC and Nov 26, 16:47 UTC.</p><p><a href="https://openrouter.ai/moonshotai/kimi-k2">MoonshotAI: Kimi K2 0711 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/moonshotai/kimi-k2</link>
+<guid isPermaLink="false">moonshotai/kimi-k2-2026-11-26T16:47:45Z</guid>
+<pubDate>Thu, 26 Nov 2026 16:47:45 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Tencent on Hy3 (tencent/hy3) · input -37%, output -37%]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.132 to $0.0825 per M (-37%) · output $0.528 to $0.33 (-37%)</li></ul><p>Between the snapshots of Nov 26, 15:42 UTC and Nov 26, 16:47 UTC.</p><p><a href="https://openrouter.ai/tencent/hy3">Tencent: Hy3 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy3</link>
+<guid isPermaLink="false">tencent/hy3-2026-11-26T16:47:45Z</guid>
+<pubDate>Thu, 26 Nov 2026 16:47:45 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Tencent on Hy4 preview (tencent/hy4-preview) · input -10%, output -10% · +1 more change]]></title>
+<description><![CDATA[<ul><li>Tencent (tencent/fp8) · input $0.834 to $0.751 per M (-10%) · output $2.50 to $2.25 (-10%) · cheapest on input and output</li><li>Cheapest endpoint: Tencent alone (DeepInfra, SiliconFlow no longer tie)</li></ul><p>Between the snapshots of Nov 26, 15:42 UTC and Nov 26, 16:47 UTC.</p><p><a href="https://openrouter.ai/tencent/hy4-preview">Tencent: Hy4 preview on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/tencent/hy4-preview</link>
+<guid isPermaLink="false">tencent/hy4-preview-2026-11-26T16:47:45Z</guid>
+<pubDate>Thu, 26 Nov 2026 16:47:45 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0423 (deepseek/deepseek-v4-flash) · input -44%, output -44% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.0899 to $0.05 per M (-44%) · output $0.18 to $0.10 (-44%) · listed discount 36% to 64% · cheapest on input and output</li><li>StreamLake (streamlake/fp8) · input $0.0826 to $0.07 per M (-15%) · output $0.165 to $0.14 (-15%) · listed discount 41% to 50% · input and output 1.4x the cheapest (Baidu)</li><li>Cheapest input: now Baidu at $0.05 per M · was Relace, now $0.05. Cheapest output: now Baidu at $0.10 per M · was Fireworks, now $0.14</li></ul><p>Between the snapshots of Nov 26, 14:44 UTC and Nov 26, 15:42 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash">DeepSeek: DeepSeek V4 Flash 0423 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-2026-11-26T15:42:09Z</guid>
+<pubDate>Thu, 26 Nov 2026 15:42:09 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Price decrease: Baidu on DeepSeek V4 Flash 0731 (deepseek/deepseek-v4-flash-0731) · input -90%, output -90% · +2 more changes]]></title>
+<description><![CDATA[<ul><li>Baidu (baidu/fp8) · input $0.44 to $0.0453 per M (-90%) · output $1.32 to $0.136 (-90%) · listed discount 0% to 90% · cheapest on input and output</li><li>Wafer (wafer/us) · input $0.047 to $0.0456 per M (-3%) · input 1% above the cheapest (Baidu), output 2.2x the cheapest (Baidu)</li><li>Cheapest input: now Baidu at $0.0453 per M · was Wafer, now $0.0456. Cheapest output: now Baidu at $0.136 per M · was Relace, now $0.14</li></ul><p>Between the snapshots of Nov 26, 14:44 UTC and Nov 26, 15:42 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731">DeepSeek: DeepSeek V4 Flash 0731 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4-flash-0731</link>
+<guid isPermaLink="false">deepseek/deepseek-v4-flash-0731-2026-11-26T15:42:09Z</guid>
+<pubDate>Thu, 26 Nov 2026 15:42:09 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Provider removed: Krea on DeepSeek V4.1 Flash 1017 (deepseek/deepseek-v4.1-flash-1017)]]></title>
+<description><![CDATA[<ul><li>Krea (krea/fp8) left</li></ul><p>Between the snapshots of Nov 26, 14:44 UTC and Nov 26, 15:42 UTC.</p><p><a href="https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017">DeepSeek: DeepSeek V4.1 Flash 1017 on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017</link>
+<guid isPermaLink="false">deepseek/deepseek-v4.1-flash-1017-2026-11-26T15:42:09Z</guid>
+<pubDate>Thu, 26 Nov 2026 15:42:09 GMT</pubDate>
+</item>
+<item>
+<title><![CDATA[📝 Text model · Model listed: LingSante 3.1 Air VL (inclusionai/lingsante-3.1-air-vl) · 1 endpoint]]></title>
+<description><![CDATA[<ul><li>Listed with 1 endpoint</li></ul><p>Between the snapshots of Nov 26, 14:44 UTC and Nov 26, 15:42 UTC.</p><p><a href="https://openrouter.ai/inclusionai/lingsante-3.1-air-vl">inclusionAI: LingSante 3.1 Air VL on OpenRouter</a> · <a href="https://tiny-herb.github.io/pool-history/events.html">Pool history</a></p>]]></description>
+<link>https://openrouter.ai/inclusionai/lingsante-3.1-air-vl</link>
+<guid isPermaLink="false">inclusionai/lingsante-3.1-air-vl-2026-11-26T15:42:09Z</guid>
+<pubDate>Thu, 26 Nov 2026 15:42:09 GMT</pubDate>
+</item>
+</channel>
+</rss>
